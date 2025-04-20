@@ -1,0 +1,22 @@
+export const theme = {
+  colors: {
+    secondry: "#000000",
+    black: "#000000",
+    dark_gray: "#8B8B8B",
+    primary: "#4136F1",
+    gray_input: "#F8F7F7",
+    gray_text:"#666666",
+    gray_placeholder: "#B4B4B4",
+    search_background: "#F0F0F0",
+    background: "#F7F7F7",
+    gray_divider: "#E7E6E4",
+    button_border:"#E4E2E2",
+    gray100: "#85837A",
+    logout:"#E40505",
+    green: "#34C759",
+    red: "#FF3B30",
+    blue: "#3777F5",
+    white: "#ffffff",
+    divider: "#9E9E9E",
+  },
+};

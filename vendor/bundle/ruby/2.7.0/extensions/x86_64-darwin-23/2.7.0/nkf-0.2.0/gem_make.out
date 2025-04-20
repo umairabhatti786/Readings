@@ -1,0 +1,15 @@
+current directory: /Users/mac/Documents/ValueSports/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/mac/.rbenv/versions/2.7.0/bin/ruby -I /Users/mac/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20250202-76008-kn8eea.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mac/Documents/ValueSports/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/mac/Documents/ValueSports/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/mac/Documents/ValueSports/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250202-76008-uaz9u5
