@@ -1,0 +1,1677 @@
+2025-05-13 08:22:22 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9c542ae4b0; archive(resolved)="<IDEArchive: 0x60000f0f63e0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (16, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9c542ae4b0; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7f9c542ae220; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c5e35c670; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c35a48050; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c54447530; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c54453380; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c542fadb0; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c35a4e080; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c529b7200; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004d0c6c0; teamID='MCU9LAX524', teamName='jibran saeed', teamType='Individual', username='elanvitalpak@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f9c529b6ff0; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="(null)">
+	<IDEDistributionContext: 0x7f9c529af590; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="(null)">
+	<IDEDistributionContext: 0x7f9c529af380; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="(null)">
+	<IDEDistributionContext: 0x7f9c4cb9d8f0; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600005aac140>", team="(null)">
+	<IDEDistributionContext: 0x7f9c4cfa7090; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x7f9c5f553c20; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x7f9c5f5567e0; archive = "<IDEArchive: 0x60000f0f63e0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7f9c542ae4b0>
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionCreateDestRootStep
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionCopyItemStep
+2025-05-13 08:22:22 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app' '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app'
+2025-05-13 08:22:22 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app 
+2025-05-13 08:22:22 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-05-13 08:22:22 +0000  38539 bytes for ./_CodeSignature/CodeResources
+2025-05-13 08:22:22 +0000  copying file ./WorkSans-Regular.ttf ... 
+2025-05-13 08:22:22 +0000  188920 bytes for ./WorkSans-Regular.ttf
+2025-05-13 08:22:22 +0000  copying file ./Outfit-Bold.ttf ... 
+2025-05-13 08:22:22 +0000  55396 bytes for ./Outfit-Bold.ttf
+2025-05-13 08:22:22 +0000  copying file ./Outfit-Regular.ttf ... 
+2025-05-13 08:22:22 +0000  54916 bytes for ./Outfit-Regular.ttf
+2025-05-13 08:22:22 +0000  copying file ./Outfit-Black.ttf ... 
+2025-05-13 08:22:22 +0000  55376 bytes for ./Outfit-Black.ttf
+2025-05-13 08:22:22 +0000  copying file ./WorkSans-Light.ttf ... 
+2025-05-13 08:22:22 +0000  188940 bytes for ./WorkSans-Light.ttf
+2025-05-13 08:22:22 +0000  copying file ./LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  599 bytes for ./LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./LottiePrivacyInfo.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  782 bytes for ./LottiePrivacyInfo.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./Outfit-SemiBold.ttf ... 
+2025-05-13 08:22:22 +0000  55496 bytes for ./Outfit-SemiBold.ttf
+2025-05-13 08:22:22 +0000  copying file ./glog_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  770 bytes for ./glog_privacy.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-05-13 08:22:22 +0000  2863 bytes for ./AppIcon60x60@2x.png
+2025-05-13 08:22:22 +0000  copying file ./Lottie_React_Native_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  373 bytes for ./Lottie_React_Native_Privacy.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./Lottie_React_Native_Privacy.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  802 bytes for ./Lottie_React_Native_Privacy.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  552 bytes for ./React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./React-cxxreact_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  793 bytes for ./React-cxxreact_privacy.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./WorkSans-Medium.ttf ... 
+2025-05-13 08:22:22 +0000  189560 bytes for ./WorkSans-Medium.ttf
+2025-05-13 08:22:22 +0000  copying file ./WorkSans-SemiBold.ttf ... 
+2025-05-13 08:22:22 +0000  191020 bytes for ./WorkSans-SemiBold.ttf
+2025-05-13 08:22:22 +0000  copying file ./RCT-Folly_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  787 bytes for ./RCT-Folly_privacy.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./Outfit-Medium.ttf ... 
+2025-05-13 08:22:22 +0000  54824 bytes for ./Outfit-Medium.ttf
+2025-05-13 08:22:22 +0000  copying file ./RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  598 bytes for ./RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./RNPermissionsPrivacyInfo.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  796 bytes for ./RNPermissionsPrivacyInfo.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./Assets.car ... 
+2025-05-13 08:22:22 +0000  123823 bytes for ./Assets.car
+2025-05-13 08:22:22 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-05-13 08:22:22 +0000  3022 bytes for ./AppIcon76x76@2x~ipad.png
+2025-05-13 08:22:22 +0000  copying file ./main.jsbundle ... 
+2025-05-13 08:22:22 +0000  10408490 bytes for ./main.jsbundle
+2025-05-13 08:22:22 +0000  copying file ./PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  408 bytes for ./PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./Readings ... 
+2025-05-13 08:22:22 +0000  8448336 bytes for ./Readings
+2025-05-13 08:22:22 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-05-13 08:22:22 +0000  1225 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-05-13 08:22:22 +0000  copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-05-13 08:22:22 +0000  924 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-05-13 08:22:22 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2025-05-13 08:22:22 +0000  258 bytes for ./LaunchScreen.storyboardc/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./boost_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  773 bytes for ./boost_privacy.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./Outfit-Light.ttf ... 
+2025-05-13 08:22:22 +0000  54860 bytes for ./Outfit-Light.ttf
+2025-05-13 08:22:22 +0000  copying file ./Frameworks/hermes.framework/_CodeSignature/CodeResources ... 
+2025-05-13 08:22:22 +0000  1798 bytes for ./Frameworks/hermes.framework/_CodeSignature/CodeResources
+2025-05-13 08:22:22 +0000  copying file ./Frameworks/hermes.framework/hermes ... 
+2025-05-13 08:22:22 +0000  4621312 bytes for ./Frameworks/hermes.framework/hermes
+2025-05-13 08:22:22 +0000  copying file ./Frameworks/hermes.framework/Info.plist ... 
+2025-05-13 08:22:22 +0000  859 bytes for ./Frameworks/hermes.framework/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./embedded.mobileprovision ... 
+2025-05-13 08:22:22 +0000  25448 bytes for ./embedded.mobileprovision
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-stars/example-images/starEmpty.png ... 
+2025-05-13 08:22:22 +0000  6920 bytes for ./assets/node_modules/react-native-stars/example-images/starEmpty.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-stars/example-images/starHalf.png ... 
+2025-05-13 08:22:22 +0000  6891 bytes for ./assets/node_modules/react-native-stars/example-images/starHalf.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-stars/example-images/starFilled.png ... 
+2025-05-13 08:22:22 +0000  10060 bytes for ./assets/node_modules/react-native-stars/example-images/starFilled.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/american-express.png ... 
+2025-05-13 08:22:22 +0000  19658 bytes for ./assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/american-express.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/visaLogo.png ... 
+2025-05-13 08:22:22 +0000  1498 bytes for ./assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/visaLogo.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/mastercard.png ... 
+2025-05-13 08:22:22 +0000  747 bytes for ./assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/mastercard.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png ... 
+2025-05-13 08:22:22 +0000  761 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png ... 
+2025-05-13 08:22:22 +0000  405 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png ... 
+2025-05-13 08:22:22 +0000  589 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png ... 
+2025-05-13 08:22:22 +0000  502 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png ... 
+2025-05-13 08:22:22 +0000  290 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png ... 
+2025-05-13 08:22:22 +0000  334 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png ... 
+2025-05-13 08:22:22 +0000  839 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png ... 
+2025-05-13 08:22:22 +0000  141 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png
+copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png ... 
+2025-05-13 08:22:22 +0000  653 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png ... 
+2025-05-13 08:22:22 +0000  201 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png ... 
+2025-05-13 08:22:22 +0000  266 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png ... 
+2025-05-13 08:22:22 +0000  220 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png ... 
+2025-05-13 08:22:22 +0000  317 bytes for ./assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-paper/src/assets/back-chevron.png ... 
+2025-05-13 08:22:22 +0000  489 bytes for ./assets/node_modules/react-native-paper/src/assets/back-chevron.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-element-dropdown/src/assets/down.png ... 
+2025-05-13 08:22:22 +0000  186 bytes for ./assets/node_modules/react-native-element-dropdown/src/assets/down.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-element-dropdown/src/assets/close.png ... 
+2025-05-13 08:22:22 +0000  208 bytes for ./assets/node_modules/react-native-element-dropdown/src/assets/close.png
+2025-05-13 08:22:22 +0000  copying file ./assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.android.png ... 
+2025-05-13 08:22:22 +0000  2156 bytes for ./assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.android.png
+copying file ./assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.png ... 
+2025-05-13 08:22:22 +0000  1204 bytes for ./assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/habib_metro.png ... 
+2025-05-13 08:22:22 +0000  542227 bytes for ./assets/src/assets/images/habib_metro.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/card.png ... 
+2025-05-13 08:22:22 +0000  4384 bytes for ./assets/src/assets/images/card.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/check.png ... 
+2025-05-13 08:22:22 +0000  7676 bytes for ./assets/src/assets/images/check.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/empty_cart.png ... 
+2025-05-13 08:22:22 +0000  92404 bytes for ./assets/src/assets/images/empty_cart.png
+copying file ./assets/src/assets/images/mcb_islamic.png ... 
+2025-05-13 08:22:22 +0000  494898 bytes for ./assets/src/assets/images/mcb_islamic.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/map_rider.png ... 
+2025-05-13 08:22:22 +0000  98512 bytes for ./assets/src/assets/images/map_rider.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/UBL.png ... 
+2025-05-13 08:22:22 +0000  504411 bytes for ./assets/src/assets/images/UBL.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/delete_user.png ... 
+2025-05-13 08:22:22 +0000  6283 bytes for ./assets/src/assets/images/delete_user.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/easypaisa.png ... 
+2025-05-13 08:22:22 +0000  12591 bytes for ./assets/src/assets/images/easypaisa.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/book3.png ... 
+2025-05-13 08:22:22 +0000  101657 bytes for ./assets/src/assets/images/book3.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/silk_bank.png ... 
+2025-05-13 08:22:22 +0000  390208 bytes for ./assets/src/assets/images/silk_bank.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/zoom_in.png ... 
+2025-05-13 08:22:22 +0000  7910 bytes for ./assets/src/assets/images/zoom_in.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/book2.png ... 
+2025-05-13 08:22:22 +0000  91898 bytes for ./assets/src/assets/images/book2.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/logout.png ... 
+2025-05-13 08:22:22 +0000  5543 bytes for ./assets/src/assets/images/logout.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/visa.png ... 
+2025-05-13 08:22:22 +0000  3312 bytes for ./assets/src/assets/images/visa.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/book1.png ... 
+2025-05-13 08:22:22 +0000  2518620 bytes for ./assets/src/assets/images/book1.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/book4.png ... 
+2025-05-13 08:22:22 +0000  62396 bytes for ./assets/src/assets/images/book4.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/bank_alfalah.png ... 
+2025-05-13 08:22:22 +0000  432076 bytes for ./assets/src/assets/images/bank_alfalah.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/meezan_bank.png ... 
+2025-05-13 08:22:22 +0000  13077 bytes for ./assets/src/assets/images/meezan_bank.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/apple.png ... 
+2025-05-13 08:22:22 +0000  1233 bytes for ./assets/src/assets/images/apple.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/jazzcash.png ... 
+2025-05-13 08:22:22 +0000  12124 bytes for ./assets/src/assets/images/jazzcash.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/rider_user.png ... 
+2025-05-13 08:22:22 +0000  22013 bytes for ./assets/src/assets/images/rider_user.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/logo.png ... 
+2025-05-13 08:22:22 +0000  7151 bytes for ./assets/src/assets/images/logo.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/bank_transfer.png ... 
+2025-05-13 08:22:22 +0000  10573 bytes for ./assets/src/assets/images/bank_transfer.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/empty_liked.png ... 
+2025-05-13 08:22:22 +0000  89874 bytes for ./assets/src/assets/images/empty_liked.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/books_sale.jpeg ... 
+2025-05-13 08:22:22 +0000  198463 bytes for ./assets/src/assets/images/books_sale.jpeg
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/MCB.png ... 
+2025-05-13 08:22:22 +0000  450693 bytes for ./assets/src/assets/images/MCB.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/gift.png ... 
+2025-05-13 08:22:22 +0000  13539 bytes for ./assets/src/assets/images/gift.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/rider.png ... 
+2025-05-13 08:22:22 +0000  3321 bytes for ./assets/src/assets/images/rider.png
+copying file ./assets/src/assets/images/master_card.png ... 
+2025-05-13 08:22:22 +0000  282529 bytes for ./assets/src/assets/images/master_card.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/congrat.png ... 
+2025-05-13 08:22:22 +0000  12834 bytes for ./assets/src/assets/images/congrat.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/cash.png ... 
+2025-05-13 08:22:22 +0000  5035 bytes for ./assets/src/assets/images/cash.png
+copying file ./assets/src/assets/images/visa_card.png ... 
+2025-05-13 08:22:22 +0000  162835 bytes for ./assets/src/assets/images/visa_card.png
+copying file ./assets/src/assets/images/allied_bank.png ... 
+2025-05-13 08:22:22 +0000  447192 bytes for ./assets/src/assets/images/allied_bank.png
+copying file ./assets/src/assets/images/empty_notification.png ... 
+2025-05-13 08:22:22 +0000  91492 bytes for ./assets/src/assets/images/empty_notification.png
+copying file ./assets/src/assets/images/google.png ... 
+2025-05-13 08:22:22 +0000  1833 bytes for ./assets/src/assets/images/google.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/facebook.png ... 
+2025-05-13 08:22:22 +0000  1413 bytes for ./assets/src/assets/images/facebook.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/empty_order.png ... 
+2025-05-13 08:22:22 +0000  75127 bytes for ./assets/src/assets/images/empty_order.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/images/askari_bank.png ... 
+2025-05-13 08:22:22 +0000  395540 bytes for ./assets/src/assets/images/askari_bank.png
+copying file ./assets/src/assets/images/coming_soon.png ... 
+2025-05-13 08:22:22 +0000  40891 bytes for ./assets/src/assets/images/coming_soon.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/down_arrow.png ... 
+2025-05-13 08:22:22 +0000  692 bytes for ./assets/src/assets/icons/down_arrow.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/plus.png ... 
+2025-05-13 08:22:22 +0000  427 bytes for ./assets/src/assets/icons/plus.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/unfill_home.png ... 
+2025-05-13 08:22:22 +0000  1408 bytes for ./assets/src/assets/icons/unfill_home.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/tick.png ... 
+2025-05-13 08:22:22 +0000  346 bytes for ./assets/src/assets/icons/tick.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/bell.png ... 
+2025-05-13 08:22:22 +0000  2023 bytes for ./assets/src/assets/icons/bell.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/left_arrow.png ... 
+2025-05-13 08:22:22 +0000  794 bytes for ./assets/src/assets/icons/left_arrow.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/fill_add.png ... 
+2025-05-13 08:22:22 +0000  1135 bytes for ./assets/src/assets/icons/fill_add.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/drawer.png ... 
+2025-05-13 08:22:22 +0000  394 bytes for ./assets/src/assets/icons/drawer.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/right_arrow.png ... 
+2025-05-13 08:22:22 +0000  742 bytes for ./assets/src/assets/icons/right_arrow.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/fill_star.png ... 
+2025-05-13 08:22:22 +0000  1880 bytes for ./assets/src/assets/icons/fill_star.png
+copying file ./assets/src/assets/icons/unfill_cart.png ... 
+2025-05-13 08:22:22 +0000  1478 bytes for ./assets/src/assets/icons/unfill_cart.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/dots.png ... 
+2025-05-13 08:22:22 +0000  477 bytes for ./assets/src/assets/icons/dots.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/unfill_box.png ... 
+2025-05-13 08:22:22 +0000  1676 bytes for ./assets/src/assets/icons/unfill_box.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/like.png ... 
+2025-05-13 08:22:22 +0000  1808 bytes for ./assets/src/assets/icons/like.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/location_center.png ... 
+2025-05-13 08:22:22 +0000  1101 bytes for ./assets/src/assets/icons/location_center.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/search.png ... 
+2025-05-13 08:22:22 +0000  1540 bytes for ./assets/src/assets/icons/search.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/decrement.png ... 
+2025-05-13 08:22:22 +0000  526 bytes for ./assets/src/assets/icons/decrement.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/unfill_heart.png ... 
+2025-05-13 08:22:22 +0000  1453 bytes for ./assets/src/assets/icons/unfill_heart.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/unfill_star.png ... 
+2025-05-13 08:22:22 +0000  1837 bytes for ./assets/src/assets/icons/unfill_star.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/check_box.png ... 
+2025-05-13 08:22:22 +0000  1049 bytes for ./assets/src/assets/icons/check_box.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/filter.png ... 
+2025-05-13 08:22:22 +0000  675 bytes for ./assets/src/assets/icons/filter.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/fill_cart.png ... 
+2025-05-13 08:22:22 +0000  1127 bytes for ./assets/src/assets/icons/fill_cart.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/add_unfill.png ... 
+2025-05-13 08:22:22 +0000  1644 bytes for ./assets/src/assets/icons/add_unfill.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/share.png ... 
+2025-05-13 08:22:22 +0000  1495 bytes for ./assets/src/assets/icons/share.png
+copying file ./assets/src/assets/icons/eye.png ... 
+2025-05-13 08:22:22 +0000  1850 bytes for ./assets/src/assets/icons/eye.png
+copying file ./assets/src/assets/icons/call.png ... 
+2025-05-13 08:22:22 +0000  1641 bytes for ./assets/src/assets/icons/call.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/edit.png ... 
+2025-05-13 08:22:22 +0000  1069 bytes for ./assets/src/assets/icons/edit.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/fill_box.png ... 
+2025-05-13 08:22:22 +0000  1507 bytes for ./assets/src/assets/icons/fill_box.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/increment.png ... 
+2025-05-13 08:22:22 +0000  1117 bytes for ./assets/src/assets/icons/increment.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/fill_home.png ... 
+2025-05-13 08:22:22 +0000  909 bytes for ./assets/src/assets/icons/fill_home.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/copy.png ... 
+2025-05-13 08:22:22 +0000  1153 bytes for ./assets/src/assets/icons/copy.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/close.png ... 
+2025-05-13 08:22:22 +0000  750 bytes for ./assets/src/assets/icons/close.png
+2025-05-13 08:22:22 +0000  copying file ./assets/src/assets/icons/fill_heart.png ... 
+2025-05-13 08:22:22 +0000  1247 bytes for ./assets/src/assets/icons/fill_heart.png
+2025-05-13 08:22:22 +0000  copying file ./Info.plist ... 
+2025-05-13 08:22:22 +0000  2205 bytes for ./Info.plist
+2025-05-13 08:22:22 +0000  copying file ./RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  512 bytes for ./RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./RNCAsyncStorage_resources.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  798 bytes for ./RNCAsyncStorage_resources.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./PkgInfo ... 
+2025-05-13 08:22:22 +0000  8 bytes for ./PkgInfo
+2025-05-13 08:22:22 +0000  copying file ./React-Core_privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:22 +0000  768 bytes for ./React-Core_privacy.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:22 +0000  copying file ./React-Core_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:22 +0000  785 bytes for ./React-Core_privacy.bundle/Info.plist
+2025-05-13 08:22:22 +0000  copying file ./WorkSans-Bold.ttf ... 
+2025-05-13 08:22:22 +0000  191308 bytes for ./WorkSans-Bold.ttf
+2025-05-13 08:22:22 +0000  /usr/bin/ditto exited with 0
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionEmbedProfileStep
+2025-05-13 08:22:22 +0000  Skipping profile for item: <IDEDistributionItem: 0x600033c6fae0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x6000273c96c0:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ed9a580; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='(null)', teamID='MCU9LAX524', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x600033c03600:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionInfoPlistStep
+2025-05-13 08:22:22 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-05-13 08:22:22 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2025-05-13 08:22:22 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionSymbolsStep
+2025-05-13 08:22:22 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionAppThinningStep
+2025-05-13 08:22:22 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2025-05-13 08:22:22 +0000  Processing step: IDEDistributionArchThinningStep
+2025-05-13 08:22:22 +0000  Item /Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-05-13 08:22:22 +0000  Archs to thin for item /Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework are ["arm64e"]
+2025-05-13 08:22:22 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework/hermes' '-verify_arch' 'arm64e'
+2025-05-13 08:22:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-05-13 08:22:22 +0000  Skipping architecture thinning for item "hermes" because arch "arm64e" wasn't found
+2025-05-13 08:22:23 +0000  Item /Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-05-13 08:22:23 +0000  Archs to thin for item /Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app are ["arm64e"]
+2025-05-13 08:22:23 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Readings' '-verify_arch' 'arm64e'
+2025-05-13 08:22:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-05-13 08:22:23 +0000  Skipping architecture thinning for item "Readings" because arch "arm64e" wasn't found
+2025-05-13 08:22:23 +0000  Processing step: IDEDistributionODRStep
+2025-05-13 08:22:23 +0000  Processing step: IDEDistributionStripXattrsStep
+2025-05-13 08:22:23 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2025-05-13 08:22:23 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2025-05-13 08:22:23 +0000  Processing step: IDEDistributionCodesignStep
+2025-05-13 08:22:23 +0000  Entitlements for <IDEDistributionItem: 0x600033c6fae0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x6000273c96c0:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ed53900; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='(null)', teamID='MCU9LAX524', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x600033c03600:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>: {
+}
+2025-05-13 08:22:23 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-05-13 08:22:23 +0000  Entitlements for <IDEDistributionItem: 0x600033c6fae0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x6000273c96c0:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ed60f00; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='(null)', teamID='MCU9LAX524', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x600033c03600:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> are: {
+}
+2025-05-13 08:22:23 +0000  Writing entitlements for <IDEDistributionItem: 0x600033c6fae0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x6000273c96c0:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ed60f00; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='(null)', teamID='MCU9LAX524', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x600033c03600:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> to: /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/entitlements~~~atifls
+2025-05-13 08:22:23 +0000  invoking codesign: <NSConcreteTask: 0x600037bc8d20; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    "-",
+    "--signature-size",
+    16000,
+    "--entitlements",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/entitlements~~~atifls",
+    "--requirements",
+    "=designated => anchor apple generic and identifier \"dev.hermesengine.iphoneos\" and certificate leaf[subject.CN] = \"Apple Distribution: jibran saeed (MCU9LAX524)\" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--omit-adhoc-flag",
+    "--team-identifier",
+    MCU9LAX524,
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework"
+)'>
+2025-05-13 08:22:23 +0000  codesign output: /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework: replacing existing signature
+/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework: signed bundle with Mach-O thin (arm64) [dev.hermesengine.iphoneos]
+2025-05-13 08:22:23 +0000  Remote code signing '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework' with signature slices '[<DVTCodeSignatureSlice: 0x600018808c30; architecture='arm64', cmsDigest='<DVTCodeSignatureHash: 0x60000d227660; digestAlgorithmDescription='sha256', cdHashHexEncoded='b8bb1c80d4a90aac12a6fe4bf8dc02987ceef598cf8a9c913d629e477efad0c0'>', codeSignatureHashes='{(
+    <DVTCodeSignatureHash: 0x60000d226b20; digestAlgorithmDescription='sha256', cdHashHexEncoded='b8bb1c80d4a90aac12a6fe4bf8dc02987ceef598cf8a9c913d629e477efad0c0'>
+)}', cmsHexEncoded=''>]' and configuration 'RemoteSigningToolConfiguration(path: <DVTFilePath:0x600027142060:'/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework'>, signingCertificate: <DVTSigningCertificate: 0x600006dc1740; name='Apple Distribution: jibran saeed (MCU9LAX524)', hash='268A6FF0E415A275F8D2D1075E1E14570E1D6221', serialNumber='71A9DCFA2012884C604A9D19EAC43CBA', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-03-16 16:35:48 +0000''>, session: <DVTServicesAccountBasedSession: 0x600033c21bc0; account='<DVTAppleIDBasedDeveloperAccount: 0x600000db2ec0; username='elanvitalpak@gmail.com'>'>, team: <DVTPortalTeam: 0x60003022f040; name='jibran saeed', teamID='MCU9LAX524', type='Individual', memberships='(
+    "<DVTPortalMembership: 0x600018838b40; programs='{(\n    <DVTPortalProgram: 0x600007849680; <DVTPortalProgram: 0x600007849680; identifier='Xcode.Portal.Program.iOS'>>\n)}'>",
+    "<DVTPortalMembership: 0x60001880dd70; programs='{(\n    <DVTPortalProgram: 0x60000780c000; <DVTPortalProgram: 0x60000780c000; identifier='Xcode.Portal.Program.Mac'>>\n)}'>"
+)'>, codeResourcesDictionary: [AnyHashable("files2"): {
+}, AnyHashable("files"): {
+    "Info.plist" = {length = 20, bytes = 0x9349ed9a5d4827eb0f0463af3728c7fe7b1875e5};
+}, AnyHashable("rules2"): {
+    ".*\\.dSYM($|/)" =     {
+        weight = 11;
+    };
+    "^(.*/)?\\.DS_Store$" =     {
+        omit = 1;
+        weight = 2000;
+    };
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^Info\\.plist$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^PkgInfo$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^embedded\\.provisionprofile$" =     {
+        weight = 20;
+    };
+    "^version\\.plist$" =     {
+        weight = 20;
+    };
+}, AnyHashable("rules"): {
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^version.plist$" = 1;
+}], enableSignatureValidation: true, logAspect: <DVTLogAspect:0x600033c2f2a0:IDEDistributionPipeline:level=verbose(3):effective-level=verbose(3)>)'
+2025-05-13 08:22:23 +0000  Sending request FFA46A1C-319E-4CBB-8563-C66C670B6000 to <https://developerservices2.apple.com/services/v1/certificates> for session <DVTServicesAccountBasedSession: 0x600033c21bc0; account='<DVTAppleIDBasedDeveloperAccount: 0x600000db2ec0; username='elanvitalpak@gmail.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 113;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 1ulp5q3v64t3c0f4fe2e46b3aaco3n68ikqavpkf4rf15k1kqm58;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGcZ2y8RDWdzLnhjb2RlLmF1dGi9AEmDGAtipc6jU0qW0VOBNCnSw0k6rWXobMcvpDQ1VRlfOLC8T9Nq5akDK5lEsaDFWiholkVtYKZ7dmQ7qSiLWbvi0rtq7Pe2TPF7ehFpNyly1U5PX+sD0z/uiHi1ggTY5hMNwweBotmpmPM9sBKvLuCwb/nx";
+    "X-Apple-I-Identity-Id" = "001199-08-ec36671e-e24d-4a7a-8372-56886cf7200d";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<MacBookPro15,2> <macOS;15.4.1;24E263> <com.apple.AuthKit/1 (com.apple.dt.Xcode/23785)>";
+    "X-Mme-Device-Id" = "339EDB5F-7CFC-51EF-8845-AE323BD9402E";
+    "X-Xcode-Version" = "16.3 (16E140)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=MCU9LAX524&filter%5BserialNumber%5D=71A9DCFA2012884C604A9D19EAC43CBA&limit=200"}
+2025-05-13 08:22:23 +0000  Received response for FFA46A1C-319E-4CBB-8563-C66C670B6000 @ <https://developerservices2.apple.com/services/v1/certificates>. Code = 0
+2025-05-13 08:22:23 +0000  Response payload: {
+  "data" : [ {
+    "type" : "certificates",
+    "id" : "JTJQSMYNQ6",
+    "attributes" : {
+      "requesterEmail" : "elanvitalpak@gmail.com",
+      "serialNumber" : "71A9DCFA2012884C604A9D19EAC43CBA",
+      "certificateContent" : "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",
+      "displayName" : "jibran saeed",
+      "requesterLastName" : "saeed",
+      "csrContent" : null,
+      "machineName" : null,
+      "platform" : null,
+      "requesterFirstName" : "jibran",
+      "machineId" : null,
+      "name" : "Apple Distribution: jibran saeed",
+      "responseId" : "69a99e7d-92c9-44f4-9ac3-ac4e8be9343b",
+      "expirationDate" : "2026-03-16T16:35:47.000+00:00",
+      "certificateType" : "DISTRIBUTION_MANAGED"
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/certificates/JTJQSMYNQ6"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/certificates?filter%5BserialNumber%5D=71A9DCFA2012884C604A9D19EAC43CBA&limit=200"
+  },
+  "meta" : {
+    "paging" : {
+      "total" : 1,
+      "limit" : 200
+    }
+  }
+}
+
+2025-05-13 08:22:23 +0000  Sending request 5B5199DF-ED1A-4D6A-BD28-297255A68B78 to <https://developerservices3.apple.com/services/v1/batch> for session <DVTServicesAccountBasedSession: 0x600033c21bc0; account='<DVTAppleIDBasedDeveloperAccount: 0x600000db2ec0; username='elanvitalpak@gmail.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 429;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 1ulp5q3v64t3c0f4fe2e46b3aaco3n68ikqavpkf4rf15k1kqm58;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGcZ2y8RDWdzLnhjb2RlLmF1dGi9AEmDGAtipc6jU0qW0VOBNCnSw0k6rWXobMcvpDQ1VRlfOLC8T9Nq5akDK5lEsaDFWiholkVtYKZ7dmQ7qSiLWbvi0rtq7Pe2TPF7ehFpNyly1U5PX+sD0z/uiHi1ggTY5hMNwweBotmpmPM9sBKvLuCwb/nx";
+    "X-Apple-I-Identity-Id" = "001199-08-ec36671e-e24d-4a7a-8372-56886cf7200d";
+    "X-MMe-Client-Info" = "<MacBookPro15,2> <macOS;15.4.1;24E263> <com.apple.AuthKit/1 (com.apple.dt.Xcode/23785)>";
+    "X-Mme-Device-Id" = "339EDB5F-7CFC-51EF-8845-AE323BD9402E";
+    "X-Xcode-Version" = "16.3 (16E140)";
+}
+
+Payload:
+{"data":{"attributes":{"resourceVersion":"1","resourceList":[{"data":{"relationships":{"certificate":{"data":{"type":"certificates","id":"JTJQSMYNQ6"}}},"attributes":{"cdHashSha256":"B8BB1C80D4A90AAC12A6FE4BF8DC02987CEEF598CF8A9C913D629E477EFAD0C0","teamId":"MCU9LAX524","digestHash":"B8BB1C80D4A90AAC12A6FE4BF8DC02987CEEF598CF8A9C913D629E477EFAD0C0","name":"0"},"type":"codeSignatures"}}],"teamId":"MCU9LAX524"},"type":"batch"}}
+2025-05-13 08:22:25 +0000  Received response for 5B5199DF-ED1A-4D6A-BD28-297255A68B78 @ <https://developerservices3.apple.com/services/v1/batch>. Code = 0
+2025-05-13 08:22:25 +0000  Response payload: {
+  "data" : {
+    "type" : "batch",
+    "id" : "d385b88d-d6c6-4968-a9ad-8619ac2878ce",
+    "attributes" : {
+      "responseId" : "d385b88d-d6c6-4968-a9ad-8619ac2878ce",
+      "resourceList" : [ {
+        "type" : "codeSignatures",
+        "id" : "ec3c41e3-4e3c-413d-8516-60cfea9e5314",
+        "attributes" : {
+          "digestHash" : "B8BB1C80D4A90AAC12A6FE4BF8DC02987CEEF598CF8A9C913D629E477EFAD0C0",
+          "cdHashSha256" : "B8BB1C80D4A90AAC12A6FE4BF8DC02987CEEF598CF8A9C913D629E477EFAD0C0",
+          "signature" : "MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCAMIIF2TCCBMGgAwIBAgIQcanc+iASiExgSp0Z6sQ8ujANBgkqhkiG9w0BAQsFADB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI1MDMxNjE2MzU0OFoXDTI2MDMxNjE2MzU0N1owgY0xGjAYBgoJkiaJk/IsZAEBDApNQ1U5TEFYNTI0MTYwNAYDVQQDDC1BcHBsZSBEaXN0cmlidXRpb246IGppYnJhbiBzYWVlZCAoTUNVOUxBWDUyNCkxEzARBgNVBAsMCk1DVTlMQVg1MjQxFTATBgNVBAoMDGppYnJhbiBzYWVlZDELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCnaWdMYQ+Yob9RSsD5t9e1xcucdoU9Va12JuuBkgXAax43M1m6W3oy4CDR6I9B6osD8su7ZCfNKWi4OMqUj0b6HCVEBE1UNM2tbUpb/uOIzMchNZs+owEUS+ioH3VIQXg0JDKXZAMNJ09hX76J2j28iuNVHbOj5HXEZEz0SXbmEGCMUjq6B2uobMM1NnjJAawsRRYkzuRzrWQvq6rlU7fG2QKBy9tr0Lm5yhV3D8PSSKara+EeClcPHiNLwX8hqfdUNYgJOyaKHc+IAdveZgfx35W2xHJe0oPJw7cWqdoR07tTU4NW/QPHkvMFFM6d4mD4TNO83dKVrPFMQ5ccYgRrAgMBAAGjggJKMIICRjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFAn+wBWQ+a9kCpISuSYoYwyX7KeyMHAGCCsGAQUFBwEBBGQwYjAtBggrBgEFBQcwAoYhaHR0cDovL2NlcnRzLmFwcGxlLmNvbS93d2RyZzMuZGVyMDEGCCsGAQUFBzABhiVodHRwOi8vb2NzcC5hcHBsZS5jb20vb2NzcDAzLXd3ZHJnMzExMIIBHgYDVR0gBIIBFTCCAREwggENBgkqhkiG92NkBQEwgf8wgcMGCCsGAQUFBwICMIG2DIGzUmVsaWFuY2Ugb24gdGhpcyBjZXJ0aWZpY2F0ZSBieSBhbnkgcGFydHkgYXNzdW1lcyBhY2NlcHRhbmNlIG9mIHRoZSB0aGVuIGFwcGxpY2FibGUgc3RhbmRhcmQgdGVybXMgYW5kIGNvbmRpdGlvbnMgb2YgdXNlLCBjZXJ0aWZpY2F0ZSBwb2xpY3kgYW5kIGNlcnRpZmljYXRpb24gcHJhY3RpY2Ugc3RhdGVtZW50cy4wNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LmFwcGxlLmNvbS9jZXJ0aWZpY2F0ZWF1dGhvcml0eS8wFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFPwQzQ5qJdCMhTnrsAnI5JfCOh/eMA4GA1UdDwEB/wQEAwIHgDATBgoqhkiG92NkBgEHAQH/BAIFADAQBgoqhkiG92NkBgEgBAIFADATBgoqhkiG92NkBgEEAQH/BAIFADANBgkqhkiG9w0BAQsFAAOCAQEAG3vNExLsFm+WilpYHb9G0TbAnUnIobHP1U1OlE1MNJlixTBxtkE0cCg8n6HrFcAXemWiHcrplDuzfh7Th28V67+O5iLynEjjRbTWZ7Om2CzeHZx/PSwRKWqbk6Chaiu9T0cdCf7r7ZRjJSkGmeG8U9jGmUvjp9R90YPCDTLwhX2a5u/37eC6bfqt3BazubFhkNxNf0HtZhQeFVABkoJM35oWQpKO2/CpOiK9tVnGKUv0QLKJ3s9f9HzSFiMvpDrVhCNA6YKR9w90qIMkuA13MqbnQoM4UgSQIaletLdLUJcpfZeBZ5jVzoWbz3UPch6zlsUPqx0hiSi4RKnE0BREcDCCBFEwggM5oAMCAQICEHyvaQoltzn+e5tEesF4xe4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTIwMDIxOTE4MTM0N1oXDTMwMDIyMDAwMDAwMFowdTFEMEIGA1UEAww7QXBwbGUgV29ybGR3aWRlIERldmVsb3BlciBSZWxhdGlvbnMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxCzAJBgNVBAsMAkczMRMwEQYDVQQKDApBcHBsZSBJbmMuMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANj1ifyoWQuHx0yRLi1WkNN4HaQw6aVI7wtDvy2E+yRdRRvl61k2ElxUZJ5sYi20xpfKzDz21gaR/OUCphxqtHnVZ8us6T8HEeGEvEcdZo45oui0Se060uEQYHqOk4zKwNoMwIPQ4/mR1qeMyMFz4q5G0WKdkqiQYDd9aJbNjeD8m/p4u+N7ry0X3Vv+gFkjdRe4EsHtG+U0zv4itZ5JsOVVv4+EojyousWGlRbkAMmfA9DMszoWe9YFXJ3rR64NtS2MDmlNQNBLTDsEno0hsawuQ1QwzsGKhpSYS99qDT/++xyulxfCeAow4F8fVDtJtyUAGjeC0laXpVJJfGA4m+8CAwEAAaOB7zCB7DASBgNVHRMBAf8ECDAGAQH/AgEAMB8GA1UdIwQYMBaAFCvQaUeUdgn+9GuNLkCm90dNfwheMEQGCCsGAQUFBwEBBDgwNjA0BggrBgEFBQcwAYYoaHR0cDovL29jc3AuYXBwbGUuY29tL29jc3AwMy1hcHBsZXJvb3RjYTAuBgNVHR8EJzAlMCOgIaAfhh1odHRwOi8vY3JsLmFwcGxlLmNvbS9yb290LmNybDAdBgNVHQ4EFgQUCf7AFZD5r2QKkhK5JihjDJfsp7IwDgYDVR0PAQH/BAQDAgEGMBAGCiqGSIb3Y2QGAgEEAgUAMA0GCSqGSIb3DQEBCwUAA4IBAQCtZRPo9uCBd0QCR0K+X6U5IOpiqf3FkMlzE9Wem9CqD42Ny+0Bz2woQFvHVSRB+PzPwbUj6dzs8W/KgB13wsRhSSVnrw/KOSWt0+N6zDMoDQ4uoVdAc/rmXK4GUSnt44UMT2HcMhaLd9BEyl1yAzFGnK6bQBr69ODTPvovjGafl8RUWe/SSPQHmUlgWRnH3ZTRwMFsf3gh7wzrO2yZgktSYDi1OYJt7FIxU74PkUxJSXSPplHLhEdOHXUnbr350lzzf8JsCwk24mTkwjcDFBnV6mqUqqnb/vaaCGeL7yu4qhdJg6/Py7zpz+qVcbC0RaLM5YeqCsNBOnlc2lA0nZU7MIIEuzCCA6OgAwIBAgIBAjANBgkqhkiG9w0BAQUFADBiMQswCQYDVQQGEwJVUzETMBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxFjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwHhcNMDYwNDI1MjE0MDM2WhcNMzUwMjA5MjE0MDM2WjBiMQswCQYDVQQGEwJVUzETMBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxFjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkkakJH5HbHkdQ6wXtXnmELes2oldMVeyLGYne+Uts9QerIjAC6Bg++FAJ039BqJj50cpmnCRrEdCju+QbKsMflZ56DKRHi1vUFjczy8QPTc4UadHJGXL1XQ7Vf1+b8iUDulWPTV0N8WQ1IxVLFVkds5T39pyez1C6wVhQZ48ItCD3y6wsIG9wtj8BMIy3Q88PnT3zK0koGsj+zrW5DtleHNbLPbU6rfQPDgCSC7EhFi501TwN22IWq6NxkkdTVcGvL0Gz+PvjcM3mo0xFfh9Ma1CWQYnEdGILEINBhzOKgbEwWOxaBDKMaLOPHd5lc/9nXmW8Sdh2nzMUZaF3lMktAgMBAAGjggF6MIIBdjAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUK9BpR5R2Cf70a40uQKb3R01/CF4wHwYDVR0jBBgwFoAUK9BpR5R2Cf70a40uQKb3R01/CF4wggERBgNVHSAEggEIMIIBBDCCAQAGCSqGSIb3Y2QFATCB8jAqBggrBgEFBQcCARYeaHR0cHM6Ly93d3cuYXBwbGUuY29tL2FwcGxlY2EvMIHDBggrBgEFBQcCAjCBthqBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5IGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMA0GCSqGSIb3DQEBBQUAA4IBAQBcNplMLXi37Yyb3PN3m/J20ncwT8EfhYOFG5k9RzfyqZtAjizUsZAS2L70c5vu0mQPy3lPNNiiPvl4/2vIB+x9OYOLUyDTOMSxv5pPCmv/K/xZpwUJfBdAVhEedNO3iyM7R6PVbyTi69G3cN8PReEnyvFteO3ntRcXqNx+IjXKJdXZD9Zr1KIkIxH3oayPc4FgxhtbCS+SsvhESPBgOJ4V9T0mZyCKM2r3DYLP3uujL/lTaltkwGMzd/c6ByxW69oPIQ7aunMZT7XZNn/Bh1XZp5m5MkL72NVxnn6hUrcbvZNCJBIqxw8dtk2cXmPIS4AXUKqK1drk/NAJBzewdXUhAAAxggNiMIIDXgIBATCBiTB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTAhBxqdz6IBKITGBKnRnqxDy6MA0GCWCGSAFlAwQCAQUAoIIBqTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTA1MTMwODIyMjZaMC8GCSqGSIb3DQEJBDEiBCC4uxyA1KkKrBKm/kv43AKYfO71mM+KnJE9Yp5HfvrQwDA8BgkqhkiG92NkCQIxLzAtBglghkgBZQMEAgEEILi7HIDUqQqsEqb+S/jcAph87vWYz4qckT1inkd++tDAMIH/BgkqhkiG92NkCQExgfEEge48IURPQ1RZUEUgcGxpc3QgUFVCTElDICItLy9BcHBsZS8vRFREIFBMSVNUIDEuMC8vRU4iICJodHRwOi8vd3d3LmFwcGxlLmNvbS9EVERzL1Byb3BlcnR5TGlzdC0xLjAuZHRkIj4KPHBsaXN0IHZlcnNpb249IjEuMCI+CjxkaWN0PgoJPGtleT5jZGhhc2hlczwva2V5PgoJPGFycmF5PgoJCTxkYXRhPgoJCXVMc2NnTlNwQ3F3U3B2NUwrTndDbUh6dTlaZz0KCQk8L2RhdGE+Cgk8L2FycmF5Pgo8L2RpY3Q+CjwvcGxpc3Q+MA0GCSqGSIb3DQEBCwUABIIBAEOgd5BdjoIUXEKwVo0qWDdFGH2XMD+jQkX+RbkOmtRBP9e0EMBbc+WJwC87XetPRGIrnQ/GJjuDAxCWEMZLouuvPiahyMvdDGpiDoPHe06wWXY/3WtxH19MHbMsB2711b3lp725ih37olc6whhfyKtwnRDdkfBujzuWTvUYzPebfmNZzqP0oOCQyoOZJZ2QxIt7XqZXjP/G46IYa21GpFICCGgohMpCGal24GOCPOmjiIzbGgNYZAlUXApbAa4sc47VEHktNe3dpKoNe7kbSRuMmxBtplzQzvTQNQZcPVpYljML9QV+qYWAeygbyDXublnUpVVuH0zc8TfI4r7nA/IAAAAAAAA=",
+          "name" : "0",
+          "responseId" : "d385b88d-d6c6-4968-a9ad-8619ac2878ce",
+          "cmsSignature" : "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",
+          "timestamp" : false
+        },
+        "relationships" : {
+          "bundleId" : {
+            "data" : null,
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/ec3c41e3-4e3c-413d-8516-60cfea9e5314/relationships/bundleId"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/ec3c41e3-4e3c-413d-8516-60cfea9e5314/bundleId"
+              }
+            }
+          },
+          "certificate" : {
+            "data" : {
+              "type" : "certificates",
+              "id" : "JTJQSMYNQ6"
+            },
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/ec3c41e3-4e3c-413d-8516-60cfea9e5314/relationships/certificate"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/ec3c41e3-4e3c-413d-8516-60cfea9e5314/certificate"
+              }
+            }
+          }
+        },
+        "links" : {
+          "self" : {
+            "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/ec3c41e3-4e3c-413d-8516-60cfea9e5314"
+          }
+        }
+      } ],
+      "resourceVersion" : "1"
+    },
+    "links" : {
+      "self" : "https://developerservices3.apple.com:443/services/v1/batch/d385b88d-d6c6-4968-a9ad-8619ac2878ce"
+    }
+  },
+  "links" : {
+    "self" : "https://developerservices3.apple.com:443/services/v1/batch"
+  }
+}
+
+2025-05-13 08:22:25 +0000  Remote signature for /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework (arch: arm64) is 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
+2025-05-13 08:22:25 +0000  invoking codesign: <NSConcreteTask: 0x600037ba5540; launchPath='/usr/bin/codesign', arguments='(
+    "-e",
+    "--edit-cms",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/cms~~~I2foVW",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework"
+)'>
+2025-05-13 08:22:25 +0000  codesign output: 
+2025-05-13 08:22:25 +0000  Entitlements for <IDEDistributionItem: 0x600033ddec40; bundleID='com.readings.readings', path='<DVTFilePath:0x60000f237900:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000edaec40; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='{
+    "application-identifier" = "MCU9LAX524.com.readings.readings";
+    "com.apple.developer.team-identifier" = MCU9LAX524;
+    "get-task-allow" = 1;
+}', teamID='MCU9LAX524', identifier='com.readings.readings', executablePath='<DVTFilePath:0x600033c09e60:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Readings'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "MCU9LAX524.com.readings.readings";
+    "com.apple.developer.team-identifier" = MCU9LAX524;
+    "get-task-allow" = 0;
+}
+2025-05-13 08:22:25 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-05-13 08:22:26 +0000  Entitlements for <IDEDistributionItem: 0x600033ddec40; bundleID='com.readings.readings', path='<DVTFilePath:0x60000f237900:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d41b00; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='{
+    "application-identifier" = "MCU9LAX524.com.readings.readings";
+    "com.apple.developer.team-identifier" = MCU9LAX524;
+    "get-task-allow" = 1;
+}', teamID='MCU9LAX524', identifier='com.readings.readings', executablePath='<DVTFilePath:0x600033c09e60:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Readings'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "MCU9LAX524.com.readings.readings";
+    "com.apple.developer.team-identifier" = MCU9LAX524;
+    "get-task-allow" = 0;
+}
+2025-05-13 08:22:26 +0000  Writing entitlements for <IDEDistributionItem: 0x600033ddec40; bundleID='com.readings.readings', path='<DVTFilePath:0x60000f237900:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600033c2b540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d41b00; name='Apple Development: jibran saeed (3G8DWBND74)', hash='F2E2AAE8C5F2BA04AA58010A11E7BBFDE06458C2', serialNumber='2061269C8A433DB4E51B1695EB79AA98', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-10-24 05:20:59 +0000''>', entitlements='{
+    "application-identifier" = "MCU9LAX524.com.readings.readings";
+    "com.apple.developer.team-identifier" = MCU9LAX524;
+    "get-task-allow" = 1;
+}', teamID='MCU9LAX524', identifier='com.readings.readings', executablePath='<DVTFilePath:0x600033c09e60:'/Users/mac/Library/Developer/Xcode/Archives/2025-05-13/Readings 13-05-2025, 12.53 AM.xcarchive/Products/Applications/Readings.app/Readings'>', hardenedRuntime='0'>'> to: /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/entitlements~~~qRSndw
+2025-05-13 08:22:26 +0000  invoking codesign: <NSConcreteTask: 0x600037ba0d20; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    "-",
+    "--signature-size",
+    16000,
+    "--entitlements",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/entitlements~~~qRSndw",
+    "--requirements",
+    "=designated => anchor apple generic and identifier \"com.readings.readings\" and certificate leaf[subject.CN] = \"Apple Distribution: jibran saeed (MCU9LAX524)\" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--omit-adhoc-flag",
+    "--team-identifier",
+    MCU9LAX524,
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app"
+)'>
+2025-05-13 08:22:26 +0000  codesign output: /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app: replacing existing signature
+/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app: signed app bundle with Mach-O thin (arm64) [com.readings.readings]
+2025-05-13 08:22:26 +0000  Remote code signing '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app' with signature slices '[<DVTCodeSignatureSlice: 0x600018817f90; architecture='arm64', cmsDigest='<DVTCodeSignatureHash: 0x60000d3d02a0; digestAlgorithmDescription='sha256', cdHashHexEncoded='94d92cf97a30f6feae780d973275638857d5da3c17b332e490d60a2e03af830b'>', codeSignatureHashes='{(
+    <DVTCodeSignatureHash: 0x60000d3d0040; digestAlgorithmDescription='sha256', cdHashHexEncoded='94d92cf97a30f6feae780d973275638857d5da3c17b332e490d60a2e03af830b'>
+)}', cmsHexEncoded=''>]' and configuration 'RemoteSigningToolConfiguration(path: <DVTFilePath:0x600033c25260:'/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app'>, signingCertificate: <DVTSigningCertificate: 0x60000ed93d80; name='Apple Distribution: jibran saeed (MCU9LAX524)', hash='268A6FF0E415A275F8D2D1075E1E14570E1D6221', serialNumber='71A9DCFA2012884C604A9D19EAC43CBA', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-03-16 16:35:48 +0000''>, session: <DVTServicesAccountBasedSession: 0x600033c37b40; account='<DVTAppleIDBasedDeveloperAccount: 0x600000db2ec0; username='elanvitalpak@gmail.com'>'>, team: <DVTPortalTeam: 0x600030270740; name='jibran saeed', teamID='MCU9LAX524', type='Individual', memberships='(
+    "<DVTPortalMembership: 0x600018862250; programs='{(\n    <DVTPortalProgram: 0x600007849680; <DVTPortalProgram: 0x600007849680; identifier='Xcode.Portal.Program.iOS'>>\n)}'>",
+    "<DVTPortalMembership: 0x600018860cf0; programs='{(\n    <DVTPortalProgram: 0x60000780c000; <DVTPortalProgram: 0x60000780c000; identifier='Xcode.Portal.Program.Mac'>>\n)}'>"
+)'>, codeResourcesDictionary: [AnyHashable("rules2"): {
+    ".*\\.dSYM($|/)" =     {
+        weight = 11;
+    };
+    "^(.*/)?\\.DS_Store$" =     {
+        omit = 1;
+        weight = 2000;
+    };
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^Info\\.plist$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^PkgInfo$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^embedded\\.provisionprofile$" =     {
+        weight = 20;
+    };
+    "^version\\.plist$" =     {
+        weight = 20;
+    };
+}, AnyHashable("rules"): {
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^version.plist$" = 1;
+}, AnyHashable("files2"): {
+    "AppIcon60x60@2x.png" =     {
+        hash2 = {length = 32, bytes = 0x7ac6cf22 7169b17a 98d23e6a 33bc6e5a ... 748dea5f e9fbdd9b };
+    };
+    "AppIcon76x76@2x~ipad.png" =     {
+        hash2 = {length = 32, bytes = 0x753d6863 06d06c8f 0e79a8d7 2d969cf8 ... 75613268 a472ed2e };
+    };
+    "Assets.car" =     {
+        hash2 = {length = 32, bytes = 0x8cd1735a 503f675d b1759e9e 8c941048 ... e873fb44 478696a3 };
+    };
+    "Frameworks/hermes.framework/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xc7871b4e 57a3c5c2 f5ff5284 65eb506b ... 3eb3cfa7 db8a0ab9 };
+    };
+    "Frameworks/hermes.framework/_CodeSignature/CodeResources" =     {
+        hash2 = {length = 32, bytes = 0x476838b3 f09cf3bc 75433c1f 0dcdcacf ... 8f0aa312 2f05659d };
+    };
+    "Frameworks/hermes.framework/hermes" =     {
+        hash2 = {length = 32, bytes = 0x01dd7058 f939fdeb a00e19db 56bb28e3 ... f6b6c386 6419aad3 };
+    };
+    "LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" =     {
+        hash2 = {length = 32, bytes = 0xcf6e24ae 431d4d99 84c2a9ad a6f0fb20 ... 22393f5a f0a73614 };
+    };
+    "LaunchScreen.storyboardc/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x1f255d5c c53b531e 3f29a940 6a8df49a ... bd8374f7 07f7d5c8 };
+    };
+    "LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" =     {
+        hash2 = {length = 32, bytes = 0x54f3637f 671feba5 f19e82ec 4f4a7fb4 ... 89aa571f c8f053e2 };
+    };
+    "LottiePrivacyInfo.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x28119abc 557fcad4 3a5130f9 cb6b6638 ... 7a3d5b76 033656a6 };
+    };
+    "LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x10da67f2 17824f01 9288ec32 8ababc29 ... a24d4943 39137da2 };
+    };
+    "Lottie_React_Native_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x97fd384c 810c2535 271364f5 3fd71ce2 ... 216f42e0 7aae3ac8 };
+    };
+    "Lottie_React_Native_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x521eb6ef 8430773e 5c010e18 38fe9dd8 ... 8d7d8daa dcb144e2 };
+    };
+    "Outfit-Black.ttf" =     {
+        hash2 = {length = 32, bytes = 0x3cabab9a 353e7a16 72a9a08c e83bcfa6 ... 46543d4a 08709b0d };
+    };
+    "Outfit-Bold.ttf" =     {
+        hash2 = {length = 32, bytes = 0x3ee4507c 6db480bf 3eb8b0c9 da5c0eb7 ... 6e6cb736 60888123 };
+    };
+    "Outfit-Light.ttf" =     {
+        hash2 = {length = 32, bytes = 0x9518ce3d 124c8c55 bead240b 58ea2a85 ... 280a406a bb814ee8 };
+    };
+    "Outfit-Medium.ttf" =     {
+        hash2 = {length = 32, bytes = 0x33e6b2d4 4ab46084 8dacab2c dd092ca2 ... 12888e28 efeb42b9 };
+    };
+    "Outfit-Regular.ttf" =     {
+        hash2 = {length = 32, bytes = 0x7dd6d797 59104665 a9f26001 2f013aa0 ... 4352ed03 e6eac30a };
+    };
+    "Outfit-SemiBold.ttf" =     {
+        hash2 = {length = 32, bytes = 0xc67e289e e2d7e2ac 02f3d6a1 d81e9360 ... d6f21cb9 3f92dda9 };
+    };
+    "PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0xf6f307c3 93813414 588063f2 9eb7c884 ... 5a332991 a8bfdd94 };
+    };
+    "RCT-Folly_privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x93ee9c6e 1842f3df 5fcbe86c af830663 ... ea5462a6 c18a7be6 };
+    };
+    "RNCAsyncStorage_resources.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x16db1e03 085f34f5 7a324d29 23add27f ... bf2bcde6 1b080375 };
+    };
+    "RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x0b1287d0 e686cf86 7d38d97c ca5dc694 ... dd4bd2fd 5458a2f0 };
+    };
+    "RNPermissionsPrivacyInfo.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xf78bf5f0 81f4b673 625236e6 578b1414 ... ea0f1375 71be347b };
+    };
+    "RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x3e4a93cb e86acef7 dd7e063a 28c84999 ... 37c1e8b0 e1b54686 };
+    };
+    "React-Core_privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xcfa8a7f4 649af6b2 bcd1dcbd 8752669a ... 608dca10 2cfa5291 };
+    };
+    "React-Core_privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x7c08969e 459621a6 ecec043c cdb90126 ... 17c623da e2e11627 };
+    };
+    "React-cxxreact_privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x6688c2a0 b277c06f 7bdd87c8 3cc7d0c9 ... b06e5f0b d87f9cf7 };
+    };
+    "React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x0587d155 c56a6f4f 0647ebc6 b6a0bd02 ... a9786b79 a96ad335 };
+    };
+    "WorkSans-Bold.ttf" =     {
+        hash2 = {length = 32, bytes = 0x18cefb62 816717c9 39f47253 092dc28c ... a3f13f00 5a726b45 };
+    };
+    "WorkSans-Light.ttf" =     {
+        hash2 = {length = 32, bytes = 0x8b11a29f 87af119a 1e7de00d d98e9ac7 ... 40ba4d53 b6238883 };
+    };
+    "WorkSans-Medium.ttf" =     {
+        hash2 = {length = 32, bytes = 0x33feaddd bfb2298b 4492b263 9bc76e59 ... 2aa3088c a15bcdb7 };
+    };
+    "WorkSans-Regular.ttf" =     {
+        hash2 = {length = 32, bytes = 0xc3623bd2 88e650d5 70ebad5a 5848af01 ... 367e99e9 755272b3 };
+    };
+    "WorkSans-SemiBold.ttf" =     {
+        hash2 = {length = 32, bytes = 0xb4fd842b d80122b2 41ede327 8326bd6f ... 62874aa7 ed8a1a66 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png" =     {
+        hash2 = {length = 32, bytes = 0x9adb8c5e fca932e2 b732b293 da813bd2 ... e2517fec 0f0b6a76 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png" =     {
+        hash2 = {length = 32, bytes = 0x2cdfeb8e 5ccde797 6f7012fb 8cce73af ... 09fed114 871c6cd8 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png" =     {
+        hash2 = {length = 32, bytes = 0x2b7443a9 a58e92ca 11a575bd c1159861 ... 0d602606 b302cd98 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png" =     {
+        hash2 = {length = 32, bytes = 0x3ddd0773 ed27e23d 25789f30 1731b3ac ... 1b838f89 c6d27225 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png" =     {
+        hash2 = {length = 32, bytes = 0xd03a5cd7 a66ef10c 5147916f 9d5878b2 ... 1cd9967e faa55afd };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xab5613d2 ce70fa67 c5926e83 13536649 ... 6c5fe3ce c452e31a };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png" =     {
+        hash2 = {length = 32, bytes = 0xc4e54e6a 0a7de636 aa153378 fbc62ea4 ... 0df7b18f fd733f67 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png" =     {
+        hash2 = {length = 32, bytes = 0xb1bc1810 ca23e2c3 8cd76971 c43591d7 ... 2b057571 96ddb528 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xcbdf9213 e55f65c4 8d076acd 8423b7c9 ... 95a38c4c d8a86461 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png" =     {
+        hash2 = {length = 32, bytes = 0xd05c9d30 d79f45a7 8e5585a2 e7ec67c6 ... 5059e8c8 7b33ce76 };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png" =     {
+        hash2 = {length = 32, bytes = 0xdc56b976 bd45638e 1125f668 9743525e ... 51994833 685a831f };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xef13fc0d fc52ec23 817585fd 7e109fbd ... 71ac9b0e da12cc2c };
+    };
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png" =     {
+        hash2 = {length = 32, bytes = 0xb434a7cf 18c2d4ce 747c7094 2ea2fee2 ... 372f810b b9261ea5 };
+    };
+    "assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/american-express.png" =     {
+        hash2 = {length = 32, bytes = 0xabab4d0e b975af12 259160fd b41a31e3 ... dc8b73d3 f9d76fc8 };
+    };
+    "assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/mastercard.png" =     {
+        hash2 = {length = 32, bytes = 0xedfdf872 17a3f054 a1910601 c024e612 ... c26d90f0 94bcfb05 };
+    };
+    "assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/visaLogo.png" =     {
+        hash2 = {length = 32, bytes = 0x2b6e8e9a ffb10056 c7525261 9d89206a ... 02bebed3 97d6bf54 };
+    };
+    "assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.android.png" =     {
+        hash2 = {length = 32, bytes = 0x9440367d 86e003d6 e8c2fe9c 722a8a5e ... be24f30f b2ed410b };
+    };
+    "assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.png" =     {
+        hash2 = {length = 32, bytes = 0x8451634c 66d23221 fcf5552d 4cbe8548 ... c691fd2c 71045726 };
+    };
+    "assets/node_modules/react-native-element-dropdown/src/assets/close.png" =     {
+        hash2 = {length = 32, bytes = 0x739381db 30acdf6c 0909f5fc 826ff6e5 ... 3af20767 6b379767 };
+    };
+    "assets/node_modules/react-native-element-dropdown/src/assets/down.png" =     {
+        hash2 = {length = 32, bytes = 0x6331558e f9218df3 5372f08e dbd20ff3 ... 565d3207 5414a1c5 };
+    };
+    "assets/node_modules/react-native-paper/src/assets/back-chevron.png" =     {
+        hash2 = {length = 32, bytes = 0xd17c915d 7fce424f 0184c2a8 55fcdc96 ... 0fd9a824 1a95543a };
+    };
+    "assets/node_modules/react-native-stars/example-images/starEmpty.png" =     {
+        hash2 = {length = 32, bytes = 0xa81c41c7 ec503650 eb0773a2 d00bc532 ... db72d377 2b2316ec };
+    };
+    "assets/node_modules/react-native-stars/example-images/starFilled.png" =     {
+        hash2 = {length = 32, bytes = 0x78330369 0055184d f1f20229 4f6ed5c6 ... 40391731 b8eb8806 };
+    };
+    "assets/node_modules/react-native-stars/example-images/starHalf.png" =     {
+        hash2 = {length = 32, bytes = 0x01a0626a 924c8340 42005e09 47c485df ... c09bae58 965a202f };
+    };
+    "assets/src/assets/icons/add_unfill.png" =     {
+        hash2 = {length = 32, bytes = 0xa4cf39ac 23029cdc be4d8b53 3c844c1b ... 452dcd2f f63b0795 };
+    };
+    "assets/src/assets/icons/bell.png" =     {
+        hash2 = {length = 32, bytes = 0x78adafc4 68ae729c 32912bfd 228c1189 ... 9f8367d2 a946adec };
+    };
+    "assets/src/assets/icons/call.png" =     {
+        hash2 = {length = 32, bytes = 0x0220fa91 1fa61d71 29f34c59 e86bff0e ... 0d13607c a0e3bd13 };
+    };
+    "assets/src/assets/icons/check_box.png" =     {
+        hash2 = {length = 32, bytes = 0x3e44a669 d47345b5 7175eba2 15369595 ... c680993e b539aea3 };
+    };
+    "assets/src/assets/icons/close.png" =     {
+        hash2 = {length = 32, bytes = 0x03fe1ae6 60c6c374 12e7307a b288c825 ... ae8e158e c34b99c1 };
+    };
+    "assets/src/assets/icons/copy.png" =     {
+        hash2 = {length = 32, bytes = 0x99d5553f b0a0b188 92b5d865 ab95a3ae ... 2b62b411 c3bdf468 };
+    };
+    "assets/src/assets/icons/decrement.png" =     {
+        hash2 = {length = 32, bytes = 0xf06b84d7 8e207929 5a6aa058 e2d0ce28 ... 76855ccb 54009f3d };
+    };
+    "assets/src/assets/icons/dots.png" =     {
+        hash2 = {length = 32, bytes = 0x394bc00c a5bd45a3 c2a1f640 036f501e ... 225e4a65 f7f4ad5e };
+    };
+    "assets/src/assets/icons/down_arrow.png" =     {
+        hash2 = {length = 32, bytes = 0x3079a447 ad0abf32 45d1f1b8 b1d6fa0f ... 4af7fc25 a544e4b6 };
+    };
+    "assets/src/assets/icons/drawer.png" =     {
+        hash2 = {length = 32, bytes = 0x079e7dd8 a2c5ee71 8c581be8 7d3b7d7b ... df7a0d72 03a5b10c };
+    };
+    "assets/src/assets/icons/edit.png" =     {
+        hash2 = {length = 32, bytes = 0x5ac1b753 54da1849 a99641d5 82440f52 ... d80c932a 8ec84e5e };
+    };
+    "assets/src/assets/icons/eye.png" =     {
+        hash2 = {length = 32, bytes = 0x4d4eeed0 2ec3a484 8ada11ea f07e8b7e ... 1f13d7b2 e7fe28b8 };
+    };
+    "assets/src/assets/icons/fill_add.png" =     {
+        hash2 = {length = 32, bytes = 0x4b4ab93a 663ff0d5 c4d753d3 2cc86041 ... a19eb0dd 14acd829 };
+    };
+    "assets/src/assets/icons/fill_box.png" =     {
+        hash2 = {length = 32, bytes = 0x2ed09c3b a93fb093 5a648d80 61147375 ... 491f1fa7 27953c04 };
+    };
+    "assets/src/assets/icons/fill_cart.png" =     {
+        hash2 = {length = 32, bytes = 0x3f3ec050 bced2e10 34c3438a 9194f62b ... c87816bd 66772fbf };
+    };
+    "assets/src/assets/icons/fill_heart.png" =     {
+        hash2 = {length = 32, bytes = 0x033b18af 8647aaa3 00033d4a 03ffc03b ... 4bb1db10 6e38128f };
+    };
+    "assets/src/assets/icons/fill_home.png" =     {
+        hash2 = {length = 32, bytes = 0xb24a8d8e 1f3f4236 287ecebd 84bda345 ... 7e3405dd 1f485563 };
+    };
+    "assets/src/assets/icons/fill_star.png" =     {
+        hash2 = {length = 32, bytes = 0x047f34a5 d5aed936 9ea1e910 ee933dde ... 409e7167 7e58081a };
+    };
+    "assets/src/assets/icons/filter.png" =     {
+        hash2 = {length = 32, bytes = 0xf66d53d6 24a91123 4ee51784 55fc349e ... 5b6208c4 59ba2607 };
+    };
+    "assets/src/assets/icons/increment.png" =     {
+        hash2 = {length = 32, bytes = 0xcd09c3ef 0dc22cd4 21b9d083 9254e758 ... b8028ec5 87f0c279 };
+    };
+    "assets/src/assets/icons/left_arrow.png" =     {
+        hash2 = {length = 32, bytes = 0x6e32bb44 44ac29db 72794e68 24ac8878 ... 5c703382 afd910c3 };
+    };
+    "assets/src/assets/icons/like.png" =     {
+        hash2 = {length = 32, bytes = 0xae7239dd 98c7733d 774dad2c 5c383fd0 ... f58352d5 166c58ed };
+    };
+    "assets/src/assets/icons/location_center.png" =     {
+        hash2 = {length = 32, bytes = 0x15688135 84962f87 f411f459 47ce6f97 ... 0928b522 98a83bb2 };
+    };
+    "assets/src/assets/icons/plus.png" =     {
+        hash2 = {length = 32, bytes = 0x4a4ac42f 46a8b64a 2fbc9eca 05d7b387 ... 73736243 428dc236 };
+    };
+    "assets/src/assets/icons/right_arrow.png" =     {
+        hash2 = {length = 32, bytes = 0xb66df1bf 35e96636 6bb495db 416b2b09 ... ccbaa690 0c427afb };
+    };
+    "assets/src/assets/icons/search.png" =     {
+        hash2 = {length = 32, bytes = 0x8fabce7e 0b0ed995 9912b6b1 232151b6 ... 43a7e146 fd140ac0 };
+    };
+    "assets/src/assets/icons/share.png" =     {
+        hash2 = {length = 32, bytes = 0x75757287 fc8a73ad 4979e234 e076e75d ... e2b9b582 c7971355 };
+    };
+    "assets/src/assets/icons/tick.png" =     {
+        hash2 = {length = 32, bytes = 0xc047cd4b a31124b2 b304eabe 13c94cb7 ... 973fa926 8d6bf318 };
+    };
+    "assets/src/assets/icons/unfill_box.png" =     {
+        hash2 = {length = 32, bytes = 0xe4504d07 64dae53e 73dfae7c 0b0adb95 ... 293ff587 2cee3ec7 };
+    };
+    "assets/src/assets/icons/unfill_cart.png" =     {
+        hash2 = {length = 32, bytes = 0xbba79609 153bc936 1605439f f6034688 ... 3e69d03b fcaba474 };
+    };
+    "assets/src/assets/icons/unfill_heart.png" =     {
+        hash2 = {length = 32, bytes = 0x50949bb4 acb806a2 4c450bb3 d67275c2 ... c088f0b0 61c49abe };
+    };
+    "assets/src/assets/icons/unfill_home.png" =     {
+        hash2 = {length = 32, bytes = 0xbf75acf1 3f332edd c97a360f 84df7634 ... fa635ced dcbb7b61 };
+    };
+    "assets/src/assets/icons/unfill_star.png" =     {
+        hash2 = {length = 32, bytes = 0x2024c721 330c1747 9dbbf10e 65264209 ... 0981ae05 de123a9a };
+    };
+    "assets/src/assets/images/MCB.png" =     {
+        hash2 = {length = 32, bytes = 0x79a8fee4 5d42f674 77482420 a8baf2e9 ... 2ae913ac 69c4e502 };
+    };
+    "assets/src/assets/images/UBL.png" =     {
+        hash2 = {length = 32, bytes = 0x99b46f48 9d252098 42ce862b 511266db ... 249d5fbf a1fbdee1 };
+    };
+    "assets/src/assets/images/allied_bank.png" =     {
+        hash2 = {length = 32, bytes = 0x20a138aa e5de55ca 3fe010b0 50bc8023 ... 009f5b35 6c0da160 };
+    };
+    "assets/src/assets/images/apple.png" =     {
+        hash2 = {length = 32, bytes = 0x0dc09de3 370f1ff3 e1b3dff4 9bf7414b ... a877508e 018da81b };
+    };
+    "assets/src/assets/images/askari_bank.png" =     {
+        hash2 = {length = 32, bytes = 0xf5d7953a 532b8420 a6183b95 863cd67c ... 5a2b0886 67a6ecf9 };
+    };
+    "assets/src/assets/images/bank_alfalah.png" =     {
+        hash2 = {length = 32, bytes = 0xb3af40f4 5a66a85a fda0924c 7e02a97f ... b8a51aa2 d67d0af0 };
+    };
+    "assets/src/assets/images/bank_transfer.png" =     {
+        hash2 = {length = 32, bytes = 0x7305cd91 e52b95bb 1677fae7 62022f4d ... 8b7ab00b b952d0ca };
+    };
+    "assets/src/assets/images/book1.png" =     {
+        hash2 = {length = 32, bytes = 0x20f449c8 b7081e83 a26312f6 034024d8 ... 9296f760 bab604c7 };
+    };
+    "assets/src/assets/images/book2.png" =     {
+        hash2 = {length = 32, bytes = 0x9d01f050 63a14a88 72d5b307 2c7c7bcb ... 79fa8574 6e5dfc86 };
+    };
+    "assets/src/assets/images/book3.png" =     {
+        hash2 = {length = 32, bytes = 0x3c3b0332 b2e8d35c fb109f17 0ac7b3f0 ... 099385b3 fa949c09 };
+    };
+    "assets/src/assets/images/book4.png" =     {
+        hash2 = {length = 32, bytes = 0x68d799c9 418dd85a eeac3fca 88a045ef ... ee3f28d9 f94d2429 };
+    };
+    "assets/src/assets/images/books_sale.jpeg" =     {
+        hash2 = {length = 32, bytes = 0x1d68472c 3dd6a9da 36558155 688ba8a9 ... 8adae220 ffdfcfeb };
+    };
+    "assets/src/assets/images/card.png" =     {
+        hash2 = {length = 32, bytes = 0xdd67fff1 e909ef86 889ded27 0e6a94aa ... b91793fc a54ededc };
+    };
+    "assets/src/assets/images/cash.png" =     {
+        hash2 = {length = 32, bytes = 0x64fe9d0f 1928a829 babc0d5f 8e56a3fa ... f39c28f1 bdb00ef5 };
+    };
+    "assets/src/assets/images/check.png" =     {
+        hash2 = {length = 32, bytes = 0xb6158d2c b0f337cc b6678ad0 3dee3cfc ... 6c0b4b64 9272b478 };
+    };
+    "assets/src/assets/images/coming_soon.png" =     {
+        hash2 = {length = 32, bytes = 0x0e5d8da7 83fc1584 691d09c7 1ce5ec98 ... 5dcb07c4 dc2b283a };
+    };
+    "assets/src/assets/images/congrat.png" =     {
+        hash2 = {length = 32, bytes = 0xf8e39b6c faa30477 9b8acd01 b716ba59 ... 35862da7 cdaf532b };
+    };
+    "assets/src/assets/images/delete_user.png" =     {
+        hash2 = {length = 32, bytes = 0xd56b8b05 6603c9ae 49576f10 df9a726a ... 5e0f5d76 e3b123b9 };
+    };
+    "assets/src/assets/images/easypaisa.png" =     {
+        hash2 = {length = 32, bytes = 0x2f487233 7625313e 4e6bdf8d d2d0a526 ... 7555b409 12439e56 };
+    };
+    "assets/src/assets/images/empty_cart.png" =     {
+        hash2 = {length = 32, bytes = 0x8329f7d3 ffecf880 5375b5f7 73ca77c9 ... c369b4a0 6ed07e6d };
+    };
+    "assets/src/assets/images/empty_liked.png" =     {
+        hash2 = {length = 32, bytes = 0xf0afa4c2 7cf64226 daeda0aa a8d79a5e ... 42ad40c5 a847dcb6 };
+    };
+    "assets/src/assets/images/empty_notification.png" =     {
+        hash2 = {length = 32, bytes = 0x13ef3746 bbadbb55 0498cc80 78fcfcd5 ... e0e3f34a 564a6e34 };
+    };
+    "assets/src/assets/images/empty_order.png" =     {
+        hash2 = {length = 32, bytes = 0xbd3ff737 9ae93a8c 8366a2b2 2f9d8b66 ... ef4dbb62 b99f16bb };
+    };
+    "assets/src/assets/images/facebook.png" =     {
+        hash2 = {length = 32, bytes = 0x22750f53 4630e18e 150711a2 59ce745b ... 15b2bd40 14eb781c };
+    };
+    "assets/src/assets/images/gift.png" =     {
+        hash2 = {length = 32, bytes = 0x57a6dee0 a3db12bb 230c5ca3 b9c83bec ... eb838eb9 58ae3ce2 };
+    };
+    "assets/src/assets/images/google.png" =     {
+        hash2 = {length = 32, bytes = 0xb7f11ef5 b0e402d6 8c578397 9eee0156 ... dd5344b5 e6323cd8 };
+    };
+    "assets/src/assets/images/habib_metro.png" =     {
+        hash2 = {length = 32, bytes = 0x8161682f efa995cc 0ab2ff3e 46c75c71 ... afef046f 504306a5 };
+    };
+    "assets/src/assets/images/jazzcash.png" =     {
+        hash2 = {length = 32, bytes = 0x713e9491 703272ff e560165a c7b45058 ... b19aa739 4a6c5646 };
+    };
+    "assets/src/assets/images/logo.png" =     {
+        hash2 = {length = 32, bytes = 0xee1266a9 39c77dc0 d6f1d21a 0db3cafe ... 9e905954 4b497b64 };
+    };
+    "assets/src/assets/images/logout.png" =     {
+        hash2 = {length = 32, bytes = 0x09b7e819 8fd3659a cb41f99b 63e91664 ... 4691d39d 48a6263a };
+    };
+    "assets/src/assets/images/map_rider.png" =     {
+        hash2 = {length = 32, bytes = 0x86241f59 4767e256 b361710e eccc6692 ... d635e19d c199b758 };
+    };
+    "assets/src/assets/images/master_card.png" =     {
+        hash2 = {length = 32, bytes = 0x4659c108 2d91c6b4 14fc1222 6dbdc48e ... 15b70053 7a9e7756 };
+    };
+    "assets/src/assets/images/mcb_islamic.png" =     {
+        hash2 = {length = 32, bytes = 0xb3ed9c62 74f37cb0 7bc06936 13ad71a7 ... 4ae4577e fa453f9b };
+    };
+    "assets/src/assets/images/meezan_bank.png" =     {
+        hash2 = {length = 32, bytes = 0x65465417 43fd858e 295c9929 248f2953 ... cfdc5b7d 0fa0a4d2 };
+    };
+    "assets/src/assets/images/rider.png" =     {
+        hash2 = {length = 32, bytes = 0x62ef68de a4228efa 272f9411 fa073006 ... f5531f57 14a115b2 };
+    };
+    "assets/src/assets/images/rider_user.png" =     {
+        hash2 = {length = 32, bytes = 0x30b37f86 ec6395f3 36383d0b 0d654740 ... 6313569b bc29b26a };
+    };
+    "assets/src/assets/images/silk_bank.png" =     {
+        hash2 = {length = 32, bytes = 0x0eb4a09b faae8140 a40fe8b4 fa1202b4 ... b9126a9c e399ba9b };
+    };
+    "assets/src/assets/images/visa.png" =     {
+        hash2 = {length = 32, bytes = 0x0475b3b7 080f9d63 f32115e1 569c8ab8 ... d0a62527 a54a974c };
+    };
+    "assets/src/assets/images/visa_card.png" =     {
+        hash2 = {length = 32, bytes = 0xecc3ed70 96b78659 8e8cf90a b47d483c ... 67ca4062 5d322c97 };
+    };
+    "assets/src/assets/images/zoom_in.png" =     {
+        hash2 = {length = 32, bytes = 0x2a4a1173 1d7b197a 12fcc70f 9f44b85a ... 26def9db 92d52b7c };
+    };
+    "boost_privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x887b5ca8 c8d766f7 6d7a0aa2 2f1c8b4d ... c86f4066 ce4f6961 };
+    };
+    "embedded.mobileprovision" =     {
+        hash2 = {length = 32, bytes = 0xa9ae07f5 6dce2c01 d7d2659e b670ecb4 ... c53aa6eb 5ab7656c };
+    };
+    "glog_privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x717704e8 64d64667 892832ed 968bfa71 ... ef20b3cd ca57d3e7 };
+    };
+    "main.jsbundle" =     {
+        hash2 = {length = 32, bytes = 0xcfb83269 5181c413 9e622016 e6e68a71 ... 2170544d 37a03030 };
+    };
+}, AnyHashable("files"): {
+    "AppIcon60x60@2x.png" = {length = 20, bytes = 0x90c300779da0df1360b8acbc70858ff59bb502c7};
+    "AppIcon76x76@2x~ipad.png" = {length = 20, bytes = 0x5eedb3217d926d9b151ff09cea7d0866d326e7f8};
+    "Assets.car" = {length = 20, bytes = 0x151bc6280adaa6b31c30dadcfed68de59fc4b4bc};
+    "Frameworks/hermes.framework/Info.plist" = {length = 20, bytes = 0x9349ed9a5d4827eb0f0463af3728c7fe7b1875e5};
+    "Frameworks/hermes.framework/_CodeSignature/CodeResources" = {length = 20, bytes = 0x0f9342fd07fafaa6df743828b043e01a90e70ff8};
+    "Frameworks/hermes.framework/hermes" = {length = 20, bytes = 0xb2ed60251f4482fca505b70587a2df47907718ea};
+    "Info.plist" = {length = 20, bytes = 0x6ce8c7fb38bd0fc2c80f40079352611f702404a6};
+    "LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" = {length = 20, bytes = 0x8307e0647e461573e10da66aacfeed86903473d8};
+    "LaunchScreen.storyboardc/Info.plist" = {length = 20, bytes = 0x9f6b7c82c0e97c4e979211b7d69ec84094714f15};
+    "LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" = {length = 20, bytes = 0x65580cd7e2b065c667c2181a23417b06dd5b6b67};
+    "LottiePrivacyInfo.bundle/Info.plist" = {length = 20, bytes = 0x2149a24815b731ba7c64474c5fd89ddae6af1eb8};
+    "LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xf6c9619936582839a8b3879f93edd839760e417a};
+    "Lottie_React_Native_Privacy.bundle/Info.plist" = {length = 20, bytes = 0xa0ee4f3ab4aa7a40c892b202df3f1efc661648b4};
+    "Lottie_React_Native_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xb9c83da62b5ad2ff1ddf9df1dcdb867f1c1e4185};
+    "Outfit-Black.ttf" = {length = 20, bytes = 0x51e4964fd4b0072e2f90fd3b1d9883a142130e74};
+    "Outfit-Bold.ttf" = {length = 20, bytes = 0xdd5f4206d22d8b093a53a2f6423ed532fd656aeb};
+    "Outfit-Light.ttf" = {length = 20, bytes = 0x77822e4eba7d32622113003e21b0d17ed7a8f528};
+    "Outfit-Medium.ttf" = {length = 20, bytes = 0xaccdc4a94720336a48bb6fd31759bbfa268f902e};
+    "Outfit-Regular.ttf" = {length = 20, bytes = 0x7724dc42adf3e8caa9a1f7f64bc02016f201f550};
+    "Outfit-SemiBold.ttf" = {length = 20, bytes = 0x8e01f823ad73ea02ad96c676497c3e050d6e9e90};
+    PkgInfo = {length = 20, bytes = 0x9f9eea0cfe2d65f2c3d6b092e375b40782d08f31};
+    "PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xc581dcdaf7b9329f9f5f6f673c322f9e95e65dff};
+    "RCT-Folly_privacy.bundle/Info.plist" = {length = 20, bytes = 0xed3a2a3675f68135bd901e28fbe26c234a872406};
+    "RNCAsyncStorage_resources.bundle/Info.plist" = {length = 20, bytes = 0x49313268c3426edfa6f358538a01a9e68ab33fee};
+    "RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xb0f0dfc82c17545c123fc70645646c9296e55a03};
+    "RNPermissionsPrivacyInfo.bundle/Info.plist" = {length = 20, bytes = 0x43d0d3533875256ee68b343b944d77193376275d};
+    "RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x1aa780324c1b70d41e1b42b8a90850876bc7847a};
+    "React-Core_privacy.bundle/Info.plist" = {length = 20, bytes = 0x5e00faeb05568eb1e33ef33772c7a6f3c1407601};
+    "React-Core_privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x65a85c3a24d211c24976f361d31aa000a3ea6ccb};
+    "React-cxxreact_privacy.bundle/Info.plist" = {length = 20, bytes = 0x362d7190ed4e0f143880ed0888c84ec82130b818};
+    "React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x77125015d43bede7e7064074541666b886a62788};
+    "WorkSans-Bold.ttf" = {length = 20, bytes = 0x29ee9214b2baa985b6ca8f1474a5d3c799a4fe81};
+    "WorkSans-Light.ttf" = {length = 20, bytes = 0x6102f2c9d19a421a8c915b0622e7dabf13c24c7b};
+    "WorkSans-Medium.ttf" = {length = 20, bytes = 0xb95c7b1d3a5130d2d87e86f91eb397a428b4ba43};
+    "WorkSans-Regular.ttf" = {length = 20, bytes = 0x943c38fa3c44e48acc89c9547e30dc57991cb150};
+    "WorkSans-SemiBold.ttf" = {length = 20, bytes = 0xd118e3c6fd7618bd7b36072336e5710871c99cc0};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png" = {length = 20, bytes = 0xa1744b39a0eda025e4c8b572c6fd019e18607bb8};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png" = {length = 20, bytes = 0x91e2ce8b58a725d5ecd084522a75eaca15b9ec0c};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png" = {length = 20, bytes = 0xad2bc6f26e2e3cc488b4872c205f8ddad0c90fc5};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png" = {length = 20, bytes = 0xf24146f15bfb1dfaf0e3255c16b85485b1e27810};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png" = {length = 20, bytes = 0x2958c643482f074764f9d3c9453fbae5c46d578a};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png" = {length = 20, bytes = 0x2d503d58f6f9b3484e444e7b5480a362f15c4d1a};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png" = {length = 20, bytes = 0xb5718082c5e9687ab51045c16bbb52e2e13c05ef};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png" = {length = 20, bytes = 0xf12b4590aed6662658c03a876ebac07f3ade8407};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png" = {length = 20, bytes = 0x3c7ec73d74742832ab10010dc827bf8c40e31050};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png" = {length = 20, bytes = 0xcc58502572586a5b03253d55363e2b7189d6488f};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png" = {length = 20, bytes = 0xa7d893de300737a3703700ed8ab1e9707725904b};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png" = {length = 20, bytes = 0x44b676bad17ab23d7d586f6a6041495db4dd7fc5};
+    "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png" = {length = 20, bytes = 0x03c3b242263584cc0294f8a1067823016c2074b0};
+    "assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/american-express.png" = {length = 20, bytes = 0x616c2ef9e1b913a87249cde0ccd678e2fe495ad2};
+    "assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/mastercard.png" = {length = 20, bytes = 0x3d072e26184a6829acfb954ed78dd5abd74a2759};
+    "assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/visaLogo.png" = {length = 20, bytes = 0xd0e2276376c3806ef838442d328133cda518321f};
+    "assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.android.png" = {length = 20, bytes = 0xb466b71edd0dd9fd6de19b29e8984e01ce00f54b};
+    "assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.png" = {length = 20, bytes = 0xa4e396a73a96c785919894d582bd61bbc80e4af6};
+    "assets/node_modules/react-native-element-dropdown/src/assets/close.png" = {length = 20, bytes = 0xd8709cf2f46620a79cecbba8de3ad0b0aa54a764};
+    "assets/node_modules/react-native-element-dropdown/src/assets/down.png" = {length = 20, bytes = 0x36404cd88b0ca1f9a4b568518f762ade751f89ca};
+    "assets/node_modules/react-native-paper/src/assets/back-chevron.png" = {length = 20, bytes = 0x4837fe4eb6d2c90bfb7bba291296639c26d4ab63};
+    "assets/node_modules/react-native-stars/example-images/starEmpty.png" = {length = 20, bytes = 0xa4a411284e5cc27755b72829eff0ac2e64e3e0ee};
+    "assets/node_modules/react-native-stars/example-images/starFilled.png" = {length = 20, bytes = 0x2eaca65709d08832db693a073aa27e8c3d79372f};
+    "assets/node_modules/react-native-stars/example-images/starHalf.png" = {length = 20, bytes = 0xd638dd2fa0f5250e0f9cc4680dc6c95e0500e10b};
+    "assets/src/assets/icons/add_unfill.png" = {length = 20, bytes = 0x8e50c2928166e63349e315ba0ec29454ee0de89d};
+    "assets/src/assets/icons/bell.png" = {length = 20, bytes = 0x3762d01cb4ed8efcedf064858726e656637fb2b0};
+    "assets/src/assets/icons/call.png" = {length = 20, bytes = 0xf9f7413f0cc3f3f9a59e86e13ad74330c0db7f73};
+    "assets/src/assets/icons/check_box.png" = {length = 20, bytes = 0x6edc3e8d56add38c8bd0aea3dda07443385d6ddb};
+    "assets/src/assets/icons/close.png" = {length = 20, bytes = 0x5ee02f835b613c4d0b1db14e2cc9a86127274bd5};
+    "assets/src/assets/icons/copy.png" = {length = 20, bytes = 0xd9ad06f16e231b033098ed5e231fe27e1d2b0dc1};
+    "assets/src/assets/icons/decrement.png" = {length = 20, bytes = 0x08f3ad870ea84bed38d298b52aee7482320d019f};
+    "assets/src/assets/icons/dots.png" = {length = 20, bytes = 0xa0c2985756426fbcf23182a72f570ca0a2e51f99};
+    "assets/src/assets/icons/down_arrow.png" = {length = 20, bytes = 0x43267b2d98f9cb6fa4109854289178bb3898251a};
+    "assets/src/assets/icons/drawer.png" = {length = 20, bytes = 0xd07db6dc85d3d74836706acab25ad37a9f55185a};
+    "assets/src/assets/icons/edit.png" = {length = 20, bytes = 0x7610f395d0a50a545f6bf1390b744e00dacb9b24};
+    "assets/src/assets/icons/eye.png" = {length = 20, bytes = 0x09b81e977d8323283a4aab9590638550569bb13e};
+    "assets/src/assets/icons/fill_add.png" = {length = 20, bytes = 0x6adb38d17b112c0ece11e0513a52fcab14433982};
+    "assets/src/assets/icons/fill_box.png" = {length = 20, bytes = 0x63701b5577b569c17f5f5429cf138bee91bfd462};
+    "assets/src/assets/icons/fill_cart.png" = {length = 20, bytes = 0x09c09c8e33703b606b81e166992134e61d0f0100};
+    "assets/src/assets/icons/fill_heart.png" = {length = 20, bytes = 0xc3b7077e270f8e5fc1bf25a2a9b567b3f9bf2043};
+    "assets/src/assets/icons/fill_home.png" = {length = 20, bytes = 0x4929ddfb75367d658e6ce3ed08879e5c482c7da9};
+    "assets/src/assets/icons/fill_star.png" = {length = 20, bytes = 0x35a90f5e72666ac995cef794c786483cc6959677};
+    "assets/src/assets/icons/filter.png" = {length = 20, bytes = 0xca20c6b6021460fb2863d609a51574f7a8611921};
+    "assets/src/assets/icons/increment.png" = {length = 20, bytes = 0x888536dda369a23f28fb7328e638a0bbb732fa93};
+    "assets/src/assets/icons/left_arrow.png" = {length = 20, bytes = 0x940dd07988f31739bb5653ff27b697ba9c8dc288};
+    "assets/src/assets/icons/like.png" = {length = 20, bytes = 0xf92dfca31d71e06fd5a9223436770f0c35be6597};
+    "assets/src/assets/icons/location_center.png" = {length = 20, bytes = 0x10043248e6d98be55444a0dd83ddf892c1419fcb};
+    "assets/src/assets/icons/plus.png" = {length = 20, bytes = 0xafb75cb9212554b9246e2473d60b86c122f0df30};
+    "assets/src/assets/icons/right_arrow.png" = {length = 20, bytes = 0xe20b4abedc8556e9cf7b6842241d74da760d195a};
+    "assets/src/assets/icons/search.png" = {length = 20, bytes = 0x497325b480186a911bc9460254dd6a0c7331bb97};
+    "assets/src/assets/icons/share.png" = {length = 20, bytes = 0x5a64924b0c0eec8912f88b9bbc4dfaee6810a5a8};
+    "assets/src/assets/icons/tick.png" = {length = 20, bytes = 0xb876374668d8918358254965d3f7f99a71078101};
+    "assets/src/assets/icons/unfill_box.png" = {length = 20, bytes = 0x1dbcc45475865e96700edca7d6a0ceb5cb6bdbcc};
+    "assets/src/assets/icons/unfill_cart.png" = {length = 20, bytes = 0x3b594475d3fe268202ebf2a937f913153e2e8a69};
+    "assets/src/assets/icons/unfill_heart.png" = {length = 20, bytes = 0x6ae876a461f7d3044942eeb09fcc1b765468d829};
+    "assets/src/assets/icons/unfill_home.png" = {length = 20, bytes = 0xe1631a1d445925a571596a693a5ca40b0da5b248};
+    "assets/src/assets/icons/unfill_star.png" = {length = 20, bytes = 0xcfd4b5758f58c66d7530790c6af9c1a04ef67a43};
+    "assets/src/assets/images/MCB.png" = {length = 20, bytes = 0xf4aca04a6ae321dd5d881ded3df68615d5b015eb};
+    "assets/src/assets/images/UBL.png" = {length = 20, bytes = 0x91dfff5dbc6edd69ade2e54a978c9fe4f6357635};
+    "assets/src/assets/images/allied_bank.png" = {length = 20, bytes = 0xe427d78e1544d9a96da625936ebd3b9ea4d1ae2a};
+    "assets/src/assets/images/apple.png" = {length = 20, bytes = 0x899f4619c461e3175bcfafbe121a254493c6b07c};
+    "assets/src/assets/images/askari_bank.png" = {length = 20, bytes = 0x8021d7ce8f26a095c256bb2bc569f7409916ef15};
+    "assets/src/assets/images/bank_alfalah.png" = {length = 20, bytes = 0x31312e2fd439875f71ac34d146ae34654d4f388a};
+    "assets/src/assets/images/bank_transfer.png" = {length = 20, bytes = 0xcae6de5887742c1d78a946a0bcb0bdf48c3bdbe1};
+    "assets/src/assets/images/book1.png" = {length = 20, bytes = 0x96579cd52a251eeaa147e2f4575f90aff989dd07};
+    "assets/src/assets/images/book2.png" = {length = 20, bytes = 0xe685ca931c3645a2be9305b09c6a3480a261b011};
+    "assets/src/assets/images/book3.png" = {length = 20, bytes = 0x48654a442838260476327fca0a52f777e77d4cf2};
+    "assets/src/assets/images/book4.png" = {length = 20, bytes = 0xdbfa70292f355685ffd29fd7b4ba81981719d000};
+    "assets/src/assets/images/books_sale.jpeg" = {length = 20, bytes = 0x7e3264930fede6e74b2293c0725ba7afa782957e};
+    "assets/src/assets/images/card.png" = {length = 20, bytes = 0x2754bc33bfc96abf6be9e758ac01b835d8869023};
+    "assets/src/assets/images/cash.png" = {length = 20, bytes = 0x76e4b0a812d11b0551a330b63f4adde62a44f86e};
+    "assets/src/assets/images/check.png" = {length = 20, bytes = 0x55ff1367d7f74e171a3dda2217b3daa8b1826cd3};
+    "assets/src/assets/images/coming_soon.png" = {length = 20, bytes = 0x197d6428e1a59197d6a8f605e007f93ad90c05cf};
+    "assets/src/assets/images/congrat.png" = {length = 20, bytes = 0x1714f216750c746bebff54955735f6bb5b8cfab6};
+    "assets/src/assets/images/delete_user.png" = {length = 20, bytes = 0x9978d0a075912e5933e66259132531761293a3d1};
+    "assets/src/assets/images/easypaisa.png" = {length = 20, bytes = 0x07f7a62930b4f1d2dec84e83999254cb5c49a961};
+    "assets/src/assets/images/empty_cart.png" = {length = 20, bytes = 0x9ace0f5320c4e7174a72c61a651a3878dd8554b7};
+    "assets/src/assets/images/empty_liked.png" = {length = 20, bytes = 0x825666c1854b9cb31d0cddb0bb4d42825e71f1df};
+    "assets/src/assets/images/empty_notification.png" = {length = 20, bytes = 0xed6ecc3d2ed9fac97108be7cd49ca41e9c7b9776};
+    "assets/src/assets/images/empty_order.png" = {length = 20, bytes = 0x8848e25ff0883591ab17bbcefdd4d3671fc7a018};
+    "assets/src/assets/images/facebook.png" = {length = 20, bytes = 0x72d36be80a091b4c2b8d5ac9a421ee722b4fb38e};
+    "assets/src/assets/images/gift.png" = {length = 20, bytes = 0x79df1917edbe030d9cb95ebbff711ff4664164f7};
+    "assets/src/assets/images/google.png" = {length = 20, bytes = 0x512c63379bb17ef9592acdd0ad242493f666c432};
+    "assets/src/assets/images/habib_metro.png" = {length = 20, bytes = 0x6a70aa4bb9fc023b68ad59daace8079720f473b6};
+    "assets/src/assets/images/jazzcash.png" = {length = 20, bytes = 0x0754634ff405840d79187d4f446b03528a73d891};
+    "assets/src/assets/images/logo.png" = {length = 20, bytes = 0x77838c68ab8300eee625127c0a3dbf882118e823};
+    "assets/src/assets/images/logout.png" = {length = 20, bytes = 0x4b8e6b871f912191cd4323a995b6fed2eea9148b};
+    "assets/src/assets/images/map_rider.png" = {length = 20, bytes = 0x3bbf524ea8de25c0bbbc70549998ffe0ef22222d};
+    "assets/src/assets/images/master_card.png" = {length = 20, bytes = 0x385c512abe8c502449ff006905d303ef384e398d};
+    "assets/src/assets/images/mcb_islamic.png" = {length = 20, bytes = 0xe7c304ce64c6bf217c955fde541db3de5719b290};
+    "assets/src/assets/images/meezan_bank.png" = {length = 20, bytes = 0xcefd38e294e4d9451e7bd54b0d3aa9a31bc5d66f};
+    "assets/src/assets/images/rider.png" = {length = 20, bytes = 0x67ee79177267e6bb0815c7a89d8da40b38b9b937};
+    "assets/src/assets/images/rider_user.png" = {length = 20, bytes = 0x411c4e53a46b456b3352a639d8882c7660378e78};
+    "assets/src/assets/images/silk_bank.png" = {length = 20, bytes = 0xe5ce87c5bf73521f35d2e4f7730389cfc9950134};
+    "assets/src/assets/images/visa.png" = {length = 20, bytes = 0xda88e86d4ac97cd66c5f5dbad62ec06e10bce73a};
+    "assets/src/assets/images/visa_card.png" = {length = 20, bytes = 0x7b735083bbd545cb69e986ea66c6ff93d4d02815};
+    "assets/src/assets/images/zoom_in.png" = {length = 20, bytes = 0x50ced06602b5c146b03caba51d314ca6fb32154d};
+    "boost_privacy.bundle/Info.plist" = {length = 20, bytes = 0x847f5fefa46921e04ae97ba2ab6736432d6b913e};
+    "embedded.mobileprovision" = {length = 20, bytes = 0x65b36b6bdcba68e6804868bac9326c65d3c796b5};
+    "glog_privacy.bundle/Info.plist" = {length = 20, bytes = 0x0f2bf6ed6f9a6922de2cce7a7cf22a2853d42047};
+    "main.jsbundle" = {length = 20, bytes = 0x29ec88a5a1f0077ffc52f2ec5b0332d6b8148056};
+}], enableSignatureValidation: true, logAspect: <DVTLogAspect:0x600033c2f2a0:IDEDistributionPipeline:level=verbose(3):effective-level=verbose(3)>)'
+2025-05-13 08:22:26 +0000  Sending request 74A869DC-EBDF-4A55-B9A3-AAD9F8AFE94C to <https://developerservices2.apple.com/services/v1/certificates> for session <DVTServicesAccountBasedSession: 0x600033c37b40; account='<DVTAppleIDBasedDeveloperAccount: 0x600000db2ec0; username='elanvitalpak@gmail.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 113;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 1pcn7o8t39qu7denr0g4s09ungj3ecj6lq8pc69n71ulnlsl2n0q;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGcZ2y8RDWdzLnhjb2RlLmF1dGi9AEmDGAtipc6jU0qW0VOBNCnSw0k6rWXobMcvpDQ1VRlfOLC8T9Nq5akDK5lEsaDFWiholkVtYKZ7dmQ7qSiLWbvi0rtq7Pe2TPF7ehFpNyly1U5PX+sD0z/uiHi1ggTY5hMNwweBotmpmPM9sBKvLuCwb/nx";
+    "X-Apple-I-Identity-Id" = "001199-08-ec36671e-e24d-4a7a-8372-56886cf7200d";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<MacBookPro15,2> <macOS;15.4.1;24E263> <com.apple.AuthKit/1 (com.apple.dt.Xcode/23785)>";
+    "X-Mme-Device-Id" = "339EDB5F-7CFC-51EF-8845-AE323BD9402E";
+    "X-Xcode-Version" = "16.3 (16E140)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=MCU9LAX524&filter%5BserialNumber%5D=71A9DCFA2012884C604A9D19EAC43CBA&limit=200"}
+2025-05-13 08:22:27 +0000  Received response for 74A869DC-EBDF-4A55-B9A3-AAD9F8AFE94C @ <https://developerservices2.apple.com/services/v1/certificates>. Code = 0
+2025-05-13 08:22:27 +0000  Response payload: {
+  "data" : [ {
+    "type" : "certificates",
+    "id" : "JTJQSMYNQ6",
+    "attributes" : {
+      "requesterEmail" : "elanvitalpak@gmail.com",
+      "serialNumber" : "71A9DCFA2012884C604A9D19EAC43CBA",
+      "certificateContent" : "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",
+      "displayName" : "jibran saeed",
+      "requesterLastName" : "saeed",
+      "csrContent" : null,
+      "machineName" : null,
+      "platform" : null,
+      "requesterFirstName" : "jibran",
+      "machineId" : null,
+      "name" : "Apple Distribution: jibran saeed",
+      "responseId" : "701fb8ed-633e-4d65-aefb-ce46794251df",
+      "expirationDate" : "2026-03-16T16:35:47.000+00:00",
+      "certificateType" : "DISTRIBUTION_MANAGED"
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/certificates/JTJQSMYNQ6"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/certificates?filter%5BserialNumber%5D=71A9DCFA2012884C604A9D19EAC43CBA&limit=200"
+  },
+  "meta" : {
+    "paging" : {
+      "total" : 1,
+      "limit" : 200
+    }
+  }
+}
+
+2025-05-13 08:22:27 +0000  Sending request BCB3D044-4C0C-47D1-BC3F-B12B893003A0 to <https://developerservices3.apple.com/services/v1/batch> for session <DVTServicesAccountBasedSession: 0x600033c37b40; account='<DVTAppleIDBasedDeveloperAccount: 0x600000db2ec0; username='elanvitalpak@gmail.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 488;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 1pcn7o8t39qu7denr0g4s09ungj3ecj6lq8pc69n71ulnlsl2n0q;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGcZ2y8RDWdzLnhjb2RlLmF1dGi9AEmDGAtipc6jU0qW0VOBNCnSw0k6rWXobMcvpDQ1VRlfOLC8T9Nq5akDK5lEsaDFWiholkVtYKZ7dmQ7qSiLWbvi0rtq7Pe2TPF7ehFpNyly1U5PX+sD0z/uiHi1ggTY5hMNwweBotmpmPM9sBKvLuCwb/nx";
+    "X-Apple-I-Identity-Id" = "001199-08-ec36671e-e24d-4a7a-8372-56886cf7200d";
+    "X-MMe-Client-Info" = "<MacBookPro15,2> <macOS;15.4.1;24E263> <com.apple.AuthKit/1 (com.apple.dt.Xcode/23785)>";
+    "X-Mme-Device-Id" = "339EDB5F-7CFC-51EF-8845-AE323BD9402E";
+    "X-Xcode-Version" = "16.3 (16E140)";
+}
+
+Payload:
+{"data":{"type":"batch","attributes":{"resourceList":[{"data":{"type":"codeSignatures","relationships":{"certificate":{"data":{"id":"JTJQSMYNQ6","type":"certificates"}},"bundleId":{"data":{"type":"bundleIds","id":"T3V9VR3A49"}}},"attributes":{"cdHashSha256":"94D92CF97A30F6FEAE780D973275638857D5DA3C17B332E490D60A2E03AF830B","teamId":"MCU9LAX524","name":"0","digestHash":"94D92CF97A30F6FEAE780D973275638857D5DA3C17B332E490D60A2E03AF830B"}}}],"teamId":"MCU9LAX524","resourceVersion":"1"}}}
+2025-05-13 08:22:27 +0000  Received response for BCB3D044-4C0C-47D1-BC3F-B12B893003A0 @ <https://developerservices3.apple.com/services/v1/batch>. Code = 0
+2025-05-13 08:22:27 +0000  Response payload: {
+  "data" : {
+    "type" : "batch",
+    "id" : "e32f9530-1cf3-48f6-8ace-95ec77333482",
+    "attributes" : {
+      "responseId" : "e32f9530-1cf3-48f6-8ace-95ec77333482",
+      "resourceList" : [ {
+        "type" : "codeSignatures",
+        "id" : "28a99f68-d8b0-4e28-8b35-d49f40fd5997",
+        "attributes" : {
+          "digestHash" : "94D92CF97A30F6FEAE780D973275638857D5DA3C17B332E490D60A2E03AF830B",
+          "cdHashSha256" : "94D92CF97A30F6FEAE780D973275638857D5DA3C17B332E490D60A2E03AF830B",
+          "signature" : "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",
+          "name" : "0",
+          "responseId" : "e32f9530-1cf3-48f6-8ace-95ec77333482",
+          "cmsSignature" : "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",
+          "timestamp" : false
+        },
+        "relationships" : {
+          "bundleId" : {
+            "data" : {
+              "type" : "bundleIds",
+              "id" : "T3V9VR3A49"
+            },
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/28a99f68-d8b0-4e28-8b35-d49f40fd5997/relationships/bundleId"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/28a99f68-d8b0-4e28-8b35-d49f40fd5997/bundleId"
+              }
+            }
+          },
+          "certificate" : {
+            "data" : {
+              "type" : "certificates",
+              "id" : "JTJQSMYNQ6"
+            },
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/28a99f68-d8b0-4e28-8b35-d49f40fd5997/relationships/certificate"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/28a99f68-d8b0-4e28-8b35-d49f40fd5997/certificate"
+              }
+            }
+          }
+        },
+        "links" : {
+          "self" : {
+            "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/28a99f68-d8b0-4e28-8b35-d49f40fd5997"
+          }
+        }
+      } ],
+      "resourceVersion" : "1"
+    },
+    "links" : {
+      "self" : "https://developerservices3.apple.com:443/services/v1/batch/e32f9530-1cf3-48f6-8ace-95ec77333482"
+    }
+  },
+  "links" : {
+    "self" : "https://developerservices3.apple.com:443/services/v1/batch"
+  }
+}
+
+2025-05-13 08:22:27 +0000  Remote signature for /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app (arch: arm64) is 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
+2025-05-13 08:22:27 +0000  invoking codesign: <NSConcreteTask: 0x600037b51770; launchPath='/usr/bin/codesign', arguments='(
+    "-e",
+    "--edit-cms",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/cms~~~znF1mo",
+    "/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app"
+)'>
+2025-05-13 08:22:28 +0000  codesign output: 
+2025-05-13 08:22:28 +0000  Processing step: IDEDistributionZipODRItemStep
+2025-05-13 08:22:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-05-13 08:22:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-05-13 08:22:28 +0000  Processing step: IDEDistributionCreateIPAStep
+2025-05-13 08:22:28 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root' '/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Packages/Readings.ipa'
+2025-05-13 08:22:28 +0000  >>> Copying /var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root 
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/_CodeSignature/CodeResources ... 
+2025-05-13 08:22:28 +0000  38539 bytes for ./Payload/Readings.app/_CodeSignature/CodeResources
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/WorkSans-Regular.ttf ... 
+2025-05-13 08:22:28 +0000  188920 bytes for ./Payload/Readings.app/WorkSans-Regular.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/Outfit-Bold.ttf ... 
+2025-05-13 08:22:28 +0000  55396 bytes for ./Payload/Readings.app/Outfit-Bold.ttf
+copying file ./Payload/Readings.app/Outfit-Regular.ttf ... 
+2025-05-13 08:22:28 +0000  54916 bytes for ./Payload/Readings.app/Outfit-Regular.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/Outfit-Black.ttf ... 
+2025-05-13 08:22:28 +0000  55376 bytes for ./Payload/Readings.app/Outfit-Black.ttf
+copying file ./Payload/Readings.app/WorkSans-Light.ttf ... 
+2025-05-13 08:22:28 +0000  188940 bytes for ./Payload/Readings.app/WorkSans-Light.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+599 bytes for ./Payload/Readings.app/LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/LottiePrivacyInfo.bundle/Info.plist ... 
+782 bytes for ./Payload/Readings.app/LottiePrivacyInfo.bundle/Info.plist
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/Outfit-SemiBold.ttf ... 
+2025-05-13 08:22:28 +0000  55496 bytes for ./Payload/Readings.app/Outfit-SemiBold.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/glog_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:28 +0000  770 bytes for ./Payload/Readings.app/glog_privacy.bundle/Info.plist
+copying file ./Payload/Readings.app/AppIcon60x60@2x.png ... 
+2025-05-13 08:22:28 +0000  2863 bytes for ./Payload/Readings.app/AppIcon60x60@2x.png
+copying file ./Payload/Readings.app/Lottie_React_Native_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:28 +0000  373 bytes for ./Payload/Readings.app/Lottie_React_Native_Privacy.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Readings.app/Lottie_React_Native_Privacy.bundle/Info.plist ... 
+2025-05-13 08:22:28 +0000  802 bytes for ./Payload/Readings.app/Lottie_React_Native_Privacy.bundle/Info.plist
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy ... 
+552 bytes for ./Payload/Readings.app/React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Readings.app/React-cxxreact_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:28 +0000  793 bytes for ./Payload/Readings.app/React-cxxreact_privacy.bundle/Info.plist
+copying file ./Payload/Readings.app/WorkSans-Medium.ttf ... 
+2025-05-13 08:22:28 +0000  189560 bytes for ./Payload/Readings.app/WorkSans-Medium.ttf
+copying file ./Payload/Readings.app/WorkSans-SemiBold.ttf ... 
+2025-05-13 08:22:28 +0000  191020 bytes for ./Payload/Readings.app/WorkSans-SemiBold.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/RCT-Folly_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:28 +0000  787 bytes for ./Payload/Readings.app/RCT-Folly_privacy.bundle/Info.plist
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/Outfit-Medium.ttf ... 
+2025-05-13 08:22:28 +0000  54824 bytes for ./Payload/Readings.app/Outfit-Medium.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:28 +0000  598 bytes for ./Payload/Readings.app/RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/RNPermissionsPrivacyInfo.bundle/Info.plist ... 
+2025-05-13 08:22:28 +0000  796 bytes for ./Payload/Readings.app/RNPermissionsPrivacyInfo.bundle/Info.plist
+copying file ./Payload/Readings.app/Assets.car ... 
+2025-05-13 08:22:28 +0000  123823 bytes for ./Payload/Readings.app/Assets.car
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/AppIcon76x76@2x~ipad.png ... 
+2025-05-13 08:22:28 +0000  3022 bytes for ./Payload/Readings.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Readings.app/main.jsbundle ... 
+2025-05-13 08:22:28 +0000  10408490 bytes for ./Payload/Readings.app/main.jsbundle
+copying file ./Payload/Readings.app/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:28 +0000  408 bytes for ./Payload/Readings.app/PrivacyInfo.xcprivacy
+copying file ./Payload/Readings.app/Readings ... 
+2025-05-13 08:22:28 +0000  8446352 bytes for ./Payload/Readings.app/Readings
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1225 bytes for ./Payload/Readings.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Readings.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+924 bytes for ./Payload/Readings.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Readings.app/LaunchScreen.storyboardc/Info.plist ... 
+2025-05-13 08:22:28 +0000  258 bytes for ./Payload/Readings.app/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Readings.app/boost_privacy.bundle/Info.plist ... 
+2025-05-13 08:22:28 +0000  773 bytes for ./Payload/Readings.app/boost_privacy.bundle/Info.plist
+copying file ./Payload/Readings.app/Outfit-Light.ttf ... 
+2025-05-13 08:22:28 +0000  54860 bytes for ./Payload/Readings.app/Outfit-Light.ttf
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/Frameworks/hermes.framework/_CodeSignature/CodeResources ... 
+2025-05-13 08:22:28 +0000  1798 bytes for ./Payload/Readings.app/Frameworks/hermes.framework/_CodeSignature/CodeResources
+copying file ./Payload/Readings.app/Frameworks/hermes.framework/hermes ... 
+2025-05-13 08:22:28 +0000  4619312 bytes for ./Payload/Readings.app/Frameworks/hermes.framework/hermes
+copying file ./Payload/Readings.app/Frameworks/hermes.framework/Info.plist ... 
+2025-05-13 08:22:28 +0000  859 bytes for ./Payload/Readings.app/Frameworks/hermes.framework/Info.plist
+copying file ./Payload/Readings.app/embedded.mobileprovision ... 
+2025-05-13 08:22:28 +0000  13291 bytes for ./Payload/Readings.app/embedded.mobileprovision
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-stars/example-images/starEmpty.png ... 
+2025-05-13 08:22:28 +0000  6920 bytes for ./Payload/Readings.app/assets/node_modules/react-native-stars/example-images/starEmpty.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-stars/example-images/starHalf.png ... 
+2025-05-13 08:22:28 +0000  6891 bytes for ./Payload/Readings.app/assets/node_modules/react-native-stars/example-images/starHalf.png
+copying file ./Payload/Readings.app/assets/node_modules/react-native-stars/example-images/starFilled.png ... 
+2025-05-13 08:22:28 +0000  10060 bytes for ./Payload/Readings.app/assets/node_modules/react-native-stars/example-images/starFilled.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/american-express.png ... 
+2025-05-13 08:22:28 +0000  19658 bytes for ./Payload/Readings.app/assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/american-express.png
+copying file ./Payload/Readings.app/assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/visaLogo.png ... 
+2025-05-13 08:22:28 +0000  1498 bytes for ./Payload/Readings.app/assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/visaLogo.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/mastercard.png ... 
+2025-05-13 08:22:28 +0000  747 bytes for ./Payload/Readings.app/assets/node_modules/@xstak/xpay-element-react-native-stage/dist/assets/mastercard.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png ... 
+2025-05-13 08:22:28 +0000  761 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png
+copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png ... 
+2025-05-13 08:22:28 +0000  405 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png
+copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png ... 
+2025-05-13 08:22:28 +0000  589 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png ... 
+502 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png ... 
+290 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png ... 
+334 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png ... 
+2025-05-13 08:22:28 +0000  839 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png
+copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png ... 
+2025-05-13 08:22:28 +0000  141 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png
+copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png ... 
+2025-05-13 08:22:28 +0000  653 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png
+copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png ... 
+2025-05-13 08:22:28 +0000  201 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png ... 
+2025-05-13 08:22:28 +0000  266 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png
+copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png ... 
+2025-05-13 08:22:28 +0000  220 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png ... 
+2025-05-13 08:22:28 +0000  317 bytes for ./Payload/Readings.app/assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-paper/src/assets/back-chevron.png ... 
+2025-05-13 08:22:28 +0000  489 bytes for ./Payload/Readings.app/assets/node_modules/react-native-paper/src/assets/back-chevron.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-element-dropdown/src/assets/down.png ... 
+2025-05-13 08:22:28 +0000  186 bytes for ./Payload/Readings.app/assets/node_modules/react-native-element-dropdown/src/assets/down.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-element-dropdown/src/assets/close.png ... 
+2025-05-13 08:22:28 +0000  208 bytes for ./Payload/Readings.app/assets/node_modules/react-native-element-dropdown/src/assets/close.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.android.png ... 
+2025-05-13 08:22:28 +0000  2156 bytes for ./Payload/Readings.app/assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.android.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.png ... 
+2025-05-13 08:22:28 +0000  1204 bytes for ./Payload/Readings.app/assets/node_modules/react-native-country-picker-modal/lib/assets/images/close.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/habib_metro.png ... 
+2025-05-13 08:22:28 +0000  542227 bytes for ./Payload/Readings.app/assets/src/assets/images/habib_metro.png
+2025-05-13 08:22:28 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/card.png ... 
+2025-05-13 08:22:28 +0000  4384 bytes for ./Payload/Readings.app/assets/src/assets/images/card.png
+copying file ./Payload/Readings.app/assets/src/assets/images/check.png ... 
+2025-05-13 08:22:28 +0000  7676 bytes for ./Payload/Readings.app/assets/src/assets/images/check.png
+copying file ./Payload/Readings.app/assets/src/assets/images/empty_cart.png ... 
+2025-05-13 08:22:28 +0000  92404 bytes for ./Payload/Readings.app/assets/src/assets/images/empty_cart.png
+copying file ./Payload/Readings.app/assets/src/assets/images/mcb_islamic.png ... 
+2025-05-13 08:22:29 +0000  494898 bytes for ./Payload/Readings.app/assets/src/assets/images/mcb_islamic.png
+copying file ./Payload/Readings.app/assets/src/assets/images/map_rider.png ... 
+2025-05-13 08:22:29 +0000  98512 bytes for ./Payload/Readings.app/assets/src/assets/images/map_rider.png
+copying file ./Payload/Readings.app/assets/src/assets/images/UBL.png ... 
+2025-05-13 08:22:29 +0000  504411 bytes for ./Payload/Readings.app/assets/src/assets/images/UBL.png
+copying file ./Payload/Readings.app/assets/src/assets/images/delete_user.png ... 
+2025-05-13 08:22:29 +0000  6283 bytes for ./Payload/Readings.app/assets/src/assets/images/delete_user.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/easypaisa.png ... 
+2025-05-13 08:22:29 +0000  12591 bytes for ./Payload/Readings.app/assets/src/assets/images/easypaisa.png
+copying file ./Payload/Readings.app/assets/src/assets/images/book3.png ... 
+2025-05-13 08:22:29 +0000  101657 bytes for ./Payload/Readings.app/assets/src/assets/images/book3.png
+copying file ./Payload/Readings.app/assets/src/assets/images/silk_bank.png ... 
+2025-05-13 08:22:29 +0000  390208 bytes for ./Payload/Readings.app/assets/src/assets/images/silk_bank.png
+copying file ./Payload/Readings.app/assets/src/assets/images/zoom_in.png ... 
+2025-05-13 08:22:29 +0000  7910 bytes for ./Payload/Readings.app/assets/src/assets/images/zoom_in.png
+copying file ./Payload/Readings.app/assets/src/assets/images/book2.png ... 
+2025-05-13 08:22:29 +0000  91898 bytes for ./Payload/Readings.app/assets/src/assets/images/book2.png
+copying file ./Payload/Readings.app/assets/src/assets/images/logout.png ... 
+2025-05-13 08:22:29 +0000  5543 bytes for ./Payload/Readings.app/assets/src/assets/images/logout.png
+copying file ./Payload/Readings.app/assets/src/assets/images/visa.png ... 
+2025-05-13 08:22:29 +0000  3312 bytes for ./Payload/Readings.app/assets/src/assets/images/visa.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/book1.png ... 
+2025-05-13 08:22:29 +0000  2518620 bytes for ./Payload/Readings.app/assets/src/assets/images/book1.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/book4.png ... 
+2025-05-13 08:22:29 +0000  62396 bytes for ./Payload/Readings.app/assets/src/assets/images/book4.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/bank_alfalah.png ... 
+2025-05-13 08:22:29 +0000  432076 bytes for ./Payload/Readings.app/assets/src/assets/images/bank_alfalah.png
+copying file ./Payload/Readings.app/assets/src/assets/images/meezan_bank.png ... 
+2025-05-13 08:22:29 +0000  13077 bytes for ./Payload/Readings.app/assets/src/assets/images/meezan_bank.png
+copying file ./Payload/Readings.app/assets/src/assets/images/apple.png ... 
+2025-05-13 08:22:29 +0000  1233 bytes for ./Payload/Readings.app/assets/src/assets/images/apple.png
+copying file ./Payload/Readings.app/assets/src/assets/images/jazzcash.png ... 
+2025-05-13 08:22:29 +0000  12124 bytes for ./Payload/Readings.app/assets/src/assets/images/jazzcash.png
+copying file ./Payload/Readings.app/assets/src/assets/images/rider_user.png ... 
+2025-05-13 08:22:29 +0000  22013 bytes for ./Payload/Readings.app/assets/src/assets/images/rider_user.png
+copying file ./Payload/Readings.app/assets/src/assets/images/logo.png ... 
+2025-05-13 08:22:29 +0000  7151 bytes for ./Payload/Readings.app/assets/src/assets/images/logo.png
+copying file ./Payload/Readings.app/assets/src/assets/images/bank_transfer.png ... 
+2025-05-13 08:22:29 +0000  10573 bytes for ./Payload/Readings.app/assets/src/assets/images/bank_transfer.png
+copying file ./Payload/Readings.app/assets/src/assets/images/empty_liked.png ... 
+2025-05-13 08:22:29 +0000  89874 bytes for ./Payload/Readings.app/assets/src/assets/images/empty_liked.png
+copying file ./Payload/Readings.app/assets/src/assets/images/books_sale.jpeg ... 
+2025-05-13 08:22:29 +0000  198463 bytes for ./Payload/Readings.app/assets/src/assets/images/books_sale.jpeg
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/MCB.png ... 
+2025-05-13 08:22:29 +0000  450693 bytes for ./Payload/Readings.app/assets/src/assets/images/MCB.png
+copying file ./Payload/Readings.app/assets/src/assets/images/gift.png ... 
+2025-05-13 08:22:29 +0000  13539 bytes for ./Payload/Readings.app/assets/src/assets/images/gift.png
+copying file ./Payload/Readings.app/assets/src/assets/images/rider.png ... 
+2025-05-13 08:22:29 +0000  3321 bytes for ./Payload/Readings.app/assets/src/assets/images/rider.png
+copying file ./Payload/Readings.app/assets/src/assets/images/master_card.png ... 
+2025-05-13 08:22:29 +0000  282529 bytes for ./Payload/Readings.app/assets/src/assets/images/master_card.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/congrat.png ... 
+2025-05-13 08:22:29 +0000  12834 bytes for ./Payload/Readings.app/assets/src/assets/images/congrat.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/cash.png ... 
+2025-05-13 08:22:29 +0000  5035 bytes for ./Payload/Readings.app/assets/src/assets/images/cash.png
+copying file ./Payload/Readings.app/assets/src/assets/images/visa_card.png ... 
+2025-05-13 08:22:29 +0000  162835 bytes for ./Payload/Readings.app/assets/src/assets/images/visa_card.png
+copying file ./Payload/Readings.app/assets/src/assets/images/allied_bank.png ... 
+2025-05-13 08:22:29 +0000  447192 bytes for ./Payload/Readings.app/assets/src/assets/images/allied_bank.png
+copying file ./Payload/Readings.app/assets/src/assets/images/empty_notification.png ... 
+2025-05-13 08:22:29 +0000  91492 bytes for ./Payload/Readings.app/assets/src/assets/images/empty_notification.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/google.png ... 
+1833 bytes for ./Payload/Readings.app/assets/src/assets/images/google.png
+copying file ./Payload/Readings.app/assets/src/assets/images/facebook.png ... 
+2025-05-13 08:22:29 +0000  1413 bytes for ./Payload/Readings.app/assets/src/assets/images/facebook.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/images/empty_order.png ... 
+2025-05-13 08:22:29 +0000  75127 bytes for ./Payload/Readings.app/assets/src/assets/images/empty_order.png
+copying file ./Payload/Readings.app/assets/src/assets/images/askari_bank.png ... 
+2025-05-13 08:22:29 +0000  395540 bytes for ./Payload/Readings.app/assets/src/assets/images/askari_bank.png
+copying file ./Payload/Readings.app/assets/src/assets/images/coming_soon.png ... 
+2025-05-13 08:22:29 +0000  40891 bytes for ./Payload/Readings.app/assets/src/assets/images/coming_soon.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/down_arrow.png ... 
+2025-05-13 08:22:29 +0000  692 bytes for ./Payload/Readings.app/assets/src/assets/icons/down_arrow.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/plus.png ... 
+2025-05-13 08:22:29 +0000  427 bytes for ./Payload/Readings.app/assets/src/assets/icons/plus.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/unfill_home.png ... 
+2025-05-13 08:22:29 +0000  1408 bytes for ./Payload/Readings.app/assets/src/assets/icons/unfill_home.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/tick.png ... 
+2025-05-13 08:22:29 +0000  346 bytes for ./Payload/Readings.app/assets/src/assets/icons/tick.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/bell.png ... 
+2025-05-13 08:22:29 +0000  2023 bytes for ./Payload/Readings.app/assets/src/assets/icons/bell.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/left_arrow.png ... 
+2025-05-13 08:22:29 +0000  794 bytes for ./Payload/Readings.app/assets/src/assets/icons/left_arrow.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/fill_add.png ... 
+2025-05-13 08:22:29 +0000  1135 bytes for ./Payload/Readings.app/assets/src/assets/icons/fill_add.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/drawer.png ... 
+2025-05-13 08:22:29 +0000  394 bytes for ./Payload/Readings.app/assets/src/assets/icons/drawer.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/right_arrow.png ... 
+2025-05-13 08:22:29 +0000  742 bytes for ./Payload/Readings.app/assets/src/assets/icons/right_arrow.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/fill_star.png ... 
+2025-05-13 08:22:29 +0000  1880 bytes for ./Payload/Readings.app/assets/src/assets/icons/fill_star.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/unfill_cart.png ... 
+2025-05-13 08:22:29 +0000  1478 bytes for ./Payload/Readings.app/assets/src/assets/icons/unfill_cart.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/dots.png ... 
+2025-05-13 08:22:29 +0000  477 bytes for ./Payload/Readings.app/assets/src/assets/icons/dots.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/unfill_box.png ... 
+2025-05-13 08:22:29 +0000  1676 bytes for ./Payload/Readings.app/assets/src/assets/icons/unfill_box.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/like.png ... 
+2025-05-13 08:22:29 +0000  1808 bytes for ./Payload/Readings.app/assets/src/assets/icons/like.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/location_center.png ... 
+2025-05-13 08:22:29 +0000  1101 bytes for ./Payload/Readings.app/assets/src/assets/icons/location_center.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/search.png ... 
+2025-05-13 08:22:29 +0000  1540 bytes for ./Payload/Readings.app/assets/src/assets/icons/search.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/decrement.png ... 
+2025-05-13 08:22:29 +0000  526 bytes for ./Payload/Readings.app/assets/src/assets/icons/decrement.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/unfill_heart.png ... 
+2025-05-13 08:22:29 +0000  1453 bytes for ./Payload/Readings.app/assets/src/assets/icons/unfill_heart.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/unfill_star.png ... 
+2025-05-13 08:22:29 +0000  1837 bytes for ./Payload/Readings.app/assets/src/assets/icons/unfill_star.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/check_box.png ... 
+2025-05-13 08:22:29 +0000  1049 bytes for ./Payload/Readings.app/assets/src/assets/icons/check_box.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/filter.png ... 
+2025-05-13 08:22:29 +0000  675 bytes for ./Payload/Readings.app/assets/src/assets/icons/filter.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/fill_cart.png ... 
+2025-05-13 08:22:29 +0000  1127 bytes for ./Payload/Readings.app/assets/src/assets/icons/fill_cart.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/add_unfill.png ... 
+2025-05-13 08:22:29 +0000  1644 bytes for ./Payload/Readings.app/assets/src/assets/icons/add_unfill.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/share.png ... 
+2025-05-13 08:22:29 +0000  1495 bytes for ./Payload/Readings.app/assets/src/assets/icons/share.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/eye.png ... 
+2025-05-13 08:22:29 +0000  1850 bytes for ./Payload/Readings.app/assets/src/assets/icons/eye.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/call.png ... 
+2025-05-13 08:22:29 +0000  1641 bytes for ./Payload/Readings.app/assets/src/assets/icons/call.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/edit.png ... 
+2025-05-13 08:22:29 +0000  1069 bytes for ./Payload/Readings.app/assets/src/assets/icons/edit.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/fill_box.png ... 
+2025-05-13 08:22:29 +0000  1507 bytes for ./Payload/Readings.app/assets/src/assets/icons/fill_box.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/increment.png ... 
+2025-05-13 08:22:29 +0000  1117 bytes for ./Payload/Readings.app/assets/src/assets/icons/increment.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/assets/src/assets/icons/fill_home.png ... 
+2025-05-13 08:22:29 +0000  909 bytes for ./Payload/Readings.app/assets/src/assets/icons/fill_home.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/copy.png ... 
+2025-05-13 08:22:29 +0000  1153 bytes for ./Payload/Readings.app/assets/src/assets/icons/copy.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/close.png ... 
+2025-05-13 08:22:29 +0000  750 bytes for ./Payload/Readings.app/assets/src/assets/icons/close.png
+copying file ./Payload/Readings.app/assets/src/assets/icons/fill_heart.png ... 
+2025-05-13 08:22:29 +0000  1247 bytes for ./Payload/Readings.app/assets/src/assets/icons/fill_heart.png
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/Info.plist ... 
+2025-05-13 08:22:29 +0000  2205 bytes for ./Payload/Readings.app/Info.plist
+copying file ./Payload/Readings.app/RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy ... 
+512 bytes for ./Payload/Readings.app/RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/RNCAsyncStorage_resources.bundle/Info.plist ... 
+2025-05-13 08:22:29 +0000  798 bytes for ./Payload/Readings.app/RNCAsyncStorage_resources.bundle/Info.plist
+copying file ./Payload/Readings.app/PkgInfo ... 
+8 bytes for ./Payload/Readings.app/PkgInfo
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/React-Core_privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-05-13 08:22:29 +0000  768 bytes for ./Payload/Readings.app/React-Core_privacy.bundle/PrivacyInfo.xcprivacy
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/React-Core_privacy.bundle/Info.plist ... 
+785 bytes for ./Payload/Readings.app/React-Core_privacy.bundle/Info.plist
+2025-05-13 08:22:29 +0000  copying file ./Payload/Readings.app/WorkSans-Bold.ttf ... 
+2025-05-13 08:22:29 +0000  191308 bytes for ./Payload/Readings.app/WorkSans-Bold.ttf
+2025-05-13 08:22:29 +0000  /usr/bin/ditto exited with 0
+2025-05-13 08:22:29 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2025-05-13 08:22:29 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-05-13 08:22:29 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-05-13 08:22:29 +0000  IDEDistributionItem init <DVTFilePath:0x600027142060:'/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app/Frameworks/hermes.framework'>
+2025-05-13 08:22:29 +0000  IDEDistributionItem init <DVTFilePath:0x600033c25260:'/var/folders/fd/kn7cr2d52gj3hnq1xlqr5f480000gn/T/XcodeDistPipeline.~~~jNAjjK/Root/Payload/Readings.app'>
+2025-05-13 08:22:29 +0000  Processing step: IDEDistributionCreateManifestStep

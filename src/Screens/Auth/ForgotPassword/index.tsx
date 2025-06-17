@@ -1,112 +1,162 @@
-import React, { useEffect, useRef, useState } from "react";
-import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
+import React, { useState } from "react";
+import {
+  View,
+  StyleSheet,
+  KeyboardAvoidingView,
+  Platform,
+  Keyboard,
+} from "react-native";
 import ScreenLayout from "../../../components/ScreenLayout";
-import CustomText from "../../../components/Text";
-import { images } from "../../../assets/pngs";
-import sizeHelper from "../../../utils/Helpers";
-import { fonts } from "../../../utils/Themes/fonts";
-import { theme } from "../../../utils/Themes";
-import { appStyles } from "../../../utils/GlobalStyles";
-import SocialButton from "../../../components/SocialButton";
-import CustomInput from "../../../components/Input";
-import CustomButton from "../../../components/Button";
-const ForgotPassword = ({ navigation }: any) => {
-  const [isSubmited, setIsSubmited] = useState(false);
+import { scale, verticalScale } from "react-native-size-matters";
+import { colors } from "../../../utils/colors";
+import TopHeader from "../../../components/TopHeader";
+import CustomText from "../../../components/CustomText";
+import CustomInput from "../../../components/CustomInput";
+import CustomButton from "../../../components/CustomButton";
+import CustomAlertModal from "../../../components/CustomAlertModal";
+import { emailRegex } from "../../../utils/Regex";
+import CustomToast from "../../../components/CustomToast";
+import { ApiServices } from "../../../apis/ApiServices";
+import AbsoluateView from "../../../components/AbsoluateView";
+
+const ForgotPasswordScreen = ({ navigation }: any) => {
+  const [isModal, setIsModal] = useState(false);
+  const [laoding, setlaoding] = useState(false);
+  const [message, setMessage] = useState("");
+  const [isMessage, setIsMessage] = useState(false);
+  const [email, setEmail] = useState("");
+  const [email_error, setEmail_error] = useState("");
+
+  const onResetPassword = () => {
+    Keyboard.dismiss();
+    if (!email) {
+      setMessage("Email is required");
+      setIsMessage(true);
+      // Alert.alert("", "Email is required");
+
+      return;
+    }
+    if (!emailRegex.test(email)) {
+      setMessage("Invalid Email Address");
+      setIsMessage(true);
+      return;
+    }
+
+    setlaoding(true);
+    let data = {
+      email: email,
+    };
+    var raw = JSON.stringify(data);
+
+    ApiServices.ForgotPassswordEmail(
+      raw,
+      async ({ isSuccess, response }: any) => {
+        if (isSuccess) {
+          let result = JSON.parse(response);
+          if (result?.redirectUrl) {
+            setlaoding(false);
+            setIsModal(true);
+          } else {
+            setlaoding(false);
+            setMessage(result?.error);
+            setIsMessage(true);
+          }
+        } else {
+          setlaoding(false);
+          setMessage("Something went wrong");
+          setIsMessage(true);
+        }
+      }
+    );
+  };
   return (
-    <ScreenLayout
-      backgroundSource={images.background_layout}
-      style={{ padding: sizeHelper.calHp(30) }}
-    >
-      <View
+    <>
+      <ScreenLayout
         style={{
-          paddingTop: sizeHelper.calHp(20),
-          gap: sizeHelper.calHp(15),
-          flex: 1,
+          paddingHorizontal: scale(20),
+          gap: verticalScale(20),
         }}
       >
-        <TouchableOpacity
-        onPress={()=>navigation.goBack()}
-          style={{
-            width: sizeHelper.calWp(70),
-            height: sizeHelper.calWp(70),
-            borderRadius: sizeHelper.calWp(25),
-            backgroundColor: theme.colors.white,
-            alignItems: "center",
-            justifyContent: "center",
-          }}
+        <KeyboardAvoidingView
+          behavior={"height"}
+          // keyboardVerticalOffset={  20}
+          style={{ flex: 1, gap: verticalScale(20) }}
         >
-          <Image
-            style={{
-              width: sizeHelper.calHp(20),
-              height: sizeHelper.calHp(20),
-              tintColor: theme.colors.black,
-            }}
-            source={images.cross}
+          <TopHeader title="Forgot Password" />
+
+          <CustomText
+            text={
+            "Enter your email address to reset your password"
+            }
+            size={14}
           />
-        </TouchableOpacity>
-
-        <CustomText
-          text={"Enter your email"}
-          size={40}
-          style={{ textAlign: "center" }}
-          fontWeight="600"
-          fontFam={fonts.Outfit_SemiBold}
-        />
-        <CustomText
-          text={"You will recive a password reset link on your email address"}
-          style={{ textAlign: "center", width: "80%",alignSelf:"center" }}
-          color={theme.colors.dark_gray}
-          size={20}
-        />
-
-        <CustomInput label="Email" />
-
-        <CustomButton
-          style={{ marginTop: sizeHelper.calHp(20) }}
-          text={isSubmited?"Submitted":"Submit"}
-          bgColor={isSubmited?theme.colors.black:theme.colors.primary}
-          onPress={()=>setIsSubmited(true)}
-        />
-        {isSubmited && (
-          <View
-            style={{
-              ...appStyles.rowjustify,
-              paddingVertical: sizeHelper.calHp(20),
+          <CustomInput
+            value={email}
+            error={email_error}
+            onChangeText={(txt: string) => {
+              setEmail(txt);
+              let isValid = emailRegex.test(txt);
+              if (!txt) {
+                setEmail_error("");
+                return;
+              }
+              if (!isValid) {
+                setEmail_error("Invalid Email Address");
+              } else if (isValid) {
+                setEmail_error("");
+              }
             }}
-          >
-            <CustomText color={theme.colors.black} text={"01:00"} size={18} />
-            <View
-              style={{
-                ...appStyles.row,
-                gap: sizeHelper.calWp(5),
-              }}
-            >
-              <CustomText text={"Didn’t receive the email?"} size={20} />
+            placeholder="Email Address"
+          />
 
-              <CustomText text={"Resend"} color="#3579F6" size={20} />
-            </View>
+          <View style={styles.socialBtnContainer}>
+            <CustomButton
+              onPress={onResetPassword}
+              isLoading={laoding}
+              disable={email_error.length > 0}
+              text="Reset Password"
+              style={{ marginBottom: verticalScale(10) }}
+            />
           </View>
-        )}
-      </View>
-    </ScreenLayout>
+        </KeyboardAvoidingView>
+      </ScreenLayout>
+      {laoding && <AbsoluateView />}
+
+      <CustomToast
+        isVisable={isMessage}
+        setIsVisable={setIsMessage}
+        message={message}
+        color={colors.white}
+      />
+
+      <CustomAlertModal
+        modalVisible={isModal}
+        setModalVisible={setIsModal}
+        onPress={() => {
+          setIsModal(false);
+          setTimeout(() => {
+            navigation.goBack();
+          }, 500);
+        }}
+      />
+    </>
   );
 };
 
-export default ForgotPassword;
+export default ForgotPasswordScreen;
 
 const styles = StyleSheet.create({
-  divider: {
+  line: { flex: 1, height: 1, backgroundColor: colors.dull_half_white },
+  socialBtnContainer: {
+    gap: verticalScale(17),
     flex: 1,
-    height: sizeHelper.calHp(0.5),
-    backgroundColor: "#9E9E9E",
+    alignItems: "flex-end",
+    justifyContent: "flex-end",
+    paddingBottom: verticalScale(35),
   },
-  checkBox: {
-    width: sizeHelper.calWp(35),
-    height: sizeHelper.calWp(35),
-    alignItems: "center",
-    justifyContent: "center",
-    borderWidth: 1,
-    borderColor: "#B1B1B1",
-    borderRadius: sizeHelper.calWp(35),
+  orContainer: {
+    gap: scale(20),
+    alignSelf: "center",
+    marginTop: verticalScale(40),
   },
 });

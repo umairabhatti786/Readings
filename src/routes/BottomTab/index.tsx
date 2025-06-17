@@ -1,58 +1,57 @@
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Image, StyleSheet, TouchableOpacity, View } from "react-native";
-import CustomText from "../../components/Text";
-import { theme } from "../../utils/Themes";
-import sizeHelper from "../../utils/Helpers";
-import HomeScreen from "../../Screens/Main/Tabs/Home";
-import { images } from "../../assets/pngs";
-import CalendarScreen from "../../Screens/Main/Tabs/Calendar";
-import AddEvent from "../../Screens/Main/Tabs/AddEvent";
-import ProfileScreen from "../../Screens/Main/Tabs/Profile";
-import ContactScreen from "../../Screens/Main/Tabs/Contacts";
-const BottomTab = ({navigation}: any) => {
-  const Bottom = createBottomTabNavigator();
-  const TabItem = ({ focused, title, img, }: any) => {
-    return (
-      <View style={[style.itemStyle]}>
-        <View
-          style={{
-            width: sizeHelper.calWp(7),
-            height: sizeHelper.calWp(7),
-            borderRadius: sizeHelper.calWp(7),
-            backgroundColor: focused ? theme.colors.primary : "transparent",
-          }}
-        />
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {Image, Platform, StyleSheet, View} from 'react-native';
+import {colors} from '../../utils/colors';
+import {scale, verticalScale} from 'react-native-size-matters';
+import {images} from '../../assets/images';
+import CustomText from '../../components/CustomText';
+import HomeScreen from '../../screens/main/Home';
+import CategoriesScreen from '../../screens/main/Categories';
+import OrdersScreen from '../../screens/main/Orders';
+import CartScreen from '../../screens/main/Cart';
+import LikedScreen from '../../screens/main/Liked';
+import {font} from '../../utils/font';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
+const BottomTab = ({}: any) => {
+  const Bottom = createBottomTabNavigator();
+
+  const TabItem = ({focused, title, img}: any) => {
+    return (
+      <View
+        style={{
+          ...style?.itemStyle,
+        }}>
         <Image
           resizeMode="contain"
           source={img}
           style={{
             ...style.img,
-            tintColor: focused
-              ? theme.colors.primary
-              : theme.colors.gray_placeholder,
+            tintColor: focused ? colors.black : colors.grey,
           }}
         />
         <CustomText
           text={title}
-          size={18}
-          color={focused ? theme.colors.primary : theme.colors.gray_placeholder}
+          fontWeight="400"
+          fontFam={font.WorkSans_Light}
+          size={10}
+          color={focused ? colors.black : colors.grey}
         />
       </View>
     );
   };
 
   return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+
     <Bottom.Navigator
       initialRouteName="Home"
-      screenOptions={({ route }) => ({
+      screenOptions={({route}) => ({
         tabBarHideOnKeyboard: true,
         tabBarShowLabel: false,
         animationEnabled: false,
         gestureEnabled: true,
         keyboardHidesTabBar: true,
-
-        cardStyleInterpolator: ({ current, next, layouts }: any) => {
+        cardStyleInterpolator: ({ current, next, layouts }:any) => {
           return {
             cardStyle: {
               transform: [
@@ -67,111 +66,109 @@ const BottomTab = ({navigation}: any) => {
           };
         },
         tabBarStyle: {
-          backgroundColor: theme.colors.white,
-          justifyContent: "center",
-          alignItems: "center",
-          height: sizeHelper.calHp(130),
-          borderTopWidth: -1,
-          paddingTop: sizeHelper.calHp(20),
+          position: 'absolute',
+          backgroundColor: 'rgba(243, 245, 247, 0.9)', // Semi-transparent background
+          justifyContent: 'center',
+          alignItems: 'center',
+          borderTopWidth: 1,
+          borderTopColor: colors.dull_half_white,
+          display: 'flex',
+          height: verticalScale(Platform.OS == 'ios' ? 75 : 70),
+          paddingHorizontal:scale(20)
         },
-
         headerShown: false,
-      })}
-    >
-      {/* Home Tab */}
+      })}>
       <Bottom.Screen
         name="Home"
         component={HomeScreen}
+
         options={{
-          tabBarIcon: ({ focused }) => {
+        
+        
+
+           tabBarIcon: ({focused}) => {
             return (
               <TabItem
-                title={"Home"}
-                colors={theme.colors}
-                img={images.home}
+                title={'Home'}
+                img={focused ? images.fill_home : images.unfill_home}
+                focused={focused}
+              />
+            );
+          },
+        }}
+        // options={{
+        //   headerShown: false,
+        //   tabBarIcon: ({focused}) => {
+        //     return (
+        //       <TabItem
+        //         title={'Home'}
+        //         img={focused ? images.fill_home : images.unfill_home}
+        //         focused={focused}
+        //       />
+        //     );
+        //   },
+        // }}
+      />
+
+      <Bottom.Screen
+        name="Categories"
+        component={CategoriesScreen}
+        options={{
+          headerShown: false,
+          tabBarIcon: ({focused}) => {
+            return (
+              <TabItem
+                title={'Categories'}
+                img={focused ? images.fill_add : images.add_unfill}
                 focused={focused}
               />
             );
           },
         }}
       />
-      {/* Calendar Tab */}
       <Bottom.Screen
-        name="Calendar"
-        component={CalendarScreen}
+        name="Orders"
+        component={OrdersScreen}
         options={{
           headerShown: false,
-          tabBarIcon: ({ focused }) => {
+          tabBarIcon: ({focused}) => {
             return (
               <TabItem
-                colors={theme.colors}
-                title={"Calendar"}
-                img={images.calendar}
+                title={'Orders'}
+                img={focused ? images.fill_box : images.unfill_box}
                 focused={focused}
               />
             );
           },
         }}
       />
-      {/* AddEvent Tab */}
 
       <Bottom.Screen
-        name="AddEvent"
-        component={AddEvent}
+        name="Cart"
+        component={CartScreen}
         options={{
           headerShown: false,
-          tabBarIcon: ({ focused }) => {
-            return (
-              <TouchableOpacity
-
-            onPress={()=>navigation.navigate("CreateEvent")}
-              >
-                   <Image
-                resizeMode="contain"
-                source={images.add_event}
-                style={{
-                  height: sizeHelper.calHp(70),
-                  width: sizeHelper.calHp(70),
-                  borderRadius: sizeHelper.calWp(25),
-                }}
-              />
-
-              </TouchableOpacity>
-           
-            );
-          },
-        }}
-      />
-      {/* Contacts Tab */}
-      <Bottom.Screen
-        name="Contacts"
-        component={ContactScreen}
-        options={{
-          headerShown: false,
-          tabBarIcon: ({ focused }) => {
+          tabBarIcon: ({focused}) => {
             return (
               <TabItem
-                colors={theme.colors}
-                title={"Contacts"}
-                img={images.users_group}
+                title={'Cart'}
+                img={focused ? images.fill_cart : images.unfill_cart}
                 focused={focused}
               />
             );
           },
         }}
       />
-      {/* profile Tab */}
       <Bottom.Screen
-        name="Profile"
-        component={ProfileScreen}
+        name="Liked"
+        component={LikedScreen}
         options={{
           headerShown: false,
-          tabBarIcon: ({ focused }) => {
+          tabBarIcon: ({focused}) => {
             return (
               <TabItem
-                colors={theme.colors}
-                title={"Profile"}
-                img={images.profile}
+                title={'Liked'}
+                img={focused ? images.fill_heart : images.unfill_heart}
                 focused={focused}
               />
             );
@@ -179,24 +176,28 @@ const BottomTab = ({navigation}: any) => {
         }}
       />
     </Bottom.Navigator>
+
+    </GestureHandlerRootView>
+
   );
 };
 export default BottomTab;
 
 const style = StyleSheet.create({
   itemStyle: {
-    width: sizeHelper.calWp(130),
+    width: scale(50),
     backgroundColor: "transparent", // Semi-transparent background
-    justifyContent: "center",
-    alignItems: "center",
-    alignSelf: "center",
-    gap: sizeHelper.calHp(5),
-  },
-  img: {
-    height: sizeHelper.calHp(35),
-    width: sizeHelper.calHp(35),
-  },
-  tabBarStyle:{
+    paddingTop:verticalScale(Platform.OS=="ios"? 30:0),
+    paddingBottom:verticalScale(Platform.OS=="ios"? 0:5),
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: verticalScale(4),
     
-  }
+    
+  },
+
+  img: {
+    height: scale(19),
+    width: scale(19),
+  },
 });

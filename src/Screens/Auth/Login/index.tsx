@@ -1,197 +1,346 @@
-import React, { useEffect, useRef, useState } from "react";
-import { View, StyleSheet, Image, TouchableOpacity, Alert, Platform } from "react-native";
+import React, { useEffect, useState } from "react";
+import {
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  Platform,
+  Keyboard,
+  Pressable,
+} from "react-native";
 import ScreenLayout from "../../../components/ScreenLayout";
-import CustomText from "../../../components/Text";
-import { images } from "../../../assets/pngs";
-import sizeHelper from "../../../utils/Helpers";
-import { fonts } from "../../../utils/Themes/fonts";
-import { theme } from "../../../utils/Themes";
-import { appStyles } from "../../../utils/GlobalStyles";
+import { scale, verticalScale } from "react-native-size-matters";
+import { colors } from "../../../utils/colors";
+import TopHeader from "../../../components/TopHeader";
+import CustomText from "../../../components/CustomText";
+import CustomInput from "../../../components/CustomInput";
+import { images } from "../../../assets/images";
+import { font } from "../../../utils/font";
+import CustomButton from "../../../components/CustomButton";
+import { appStyles } from "../../../utils/AppStyles";
 import SocialButton from "../../../components/SocialButton";
-import CustomInput from "../../../components/Input";
-import CustomButton from "../../../components/Button";
+import { useDispatch } from "react-redux";
+
+
 import { emailRegex } from "../../../utils/Regex";
-import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
+import { ApiServices } from "../../../apis/ApiServices";
+import CustomToast from "../../../components/CustomToast";
+import AbsoluateView from "../../../components/AbsoluateView";
+import {
+  AUTHDATA,
+  StorageServices,
+  TOKEN,
+} from "../../../utils/StorageService";
+import { CommonActions } from "@react-navigation/native";
+import { setAuthData, setAuthToken } from "../../../redux/reducers/authReducer";
 
 const LoginScreen = ({ navigation }: any) => {
-  const [isRememberMe, setIsRememberMe] = useState(false);
+  const [showPassword, setShowPassword] = useState(true);
+  const [laoding, setlaoding] = useState(false);
+  const [message, setMessage] = useState("");
+  const [isMessage, setIsMessage] = useState(false);
+  const dispatch = useDispatch();
+  const [errors, setErrors] = useState({
+    email_error: "",
+    password_error: "",
+  });
+
   const [values, setValues] = useState({
     email: "",
     password: "",
   });
 
+  // useEffect(() => {
+  //   const configureGoogleSignIn = async () => {
+  //     GoogleSignin.configure({
+  //       webClientId:
+  //         "236607339802-kal9e840h3mhhuvprhcqgb40jglpkj5l.apps.googleusercontent.com",
+  //       offlineAccess: false, // if you want to access Google API on behalf of the user from your server
+  //     });
+  //     // /
+  //   };
+  //   configureGoogleSignIn();
+  // }, []);
+
+  // const _onGoogleLogin = async () => {
+  //   GoogleSignin.configure();
+  //   (await GoogleSignin.isSignedIn()) && (await GoogleSignin.signOut());
+  //   try {
+  //     await GoogleSignin.hasPlayServices({
+  //       showPlayServicesUpdateDialog: true,
+  //     });
+  //     const userInfo = await GoogleSignin.signIn();
+
+  //     if (userInfo) {
+  //       const getToken = await GoogleSignin.getTokens();
+
+  //       const googleCredential = auth.GoogleAuthProvider.credential(
+  //         getToken?.idToken
+  //       );
+  //       const userCredential = await auth().signInWithCredential(
+  //         googleCredential
+  //       );
+  //     }
+  //   } catch (error: any) {
+  //     if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+  //       console.log("user cancelled the login flow");
+  //     } else if (error.code === statusCodes.IN_PROGRESS) {
+  //       console.log("operation (e.g. sign in) is in progress already");
+  //     } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+  //       console.log("play services not available or outdated");
+  //     } else {
+  //       console.log("some other error happened", error.message);
+  //     }
+  //     // respanseData(null);
+  //   }
+  // };
+
   const onLogin = () => {
+    Keyboard.dismiss();
+
     if (!values.email) {
-      Alert.alert("Alert!", "Email is required");
+      setMessage("Email is required");
+      setIsMessage(true);
+      // Alert.alert("", "Email is required");
+
       return;
     }
-    if (values.email) {
-      let isValid = emailRegex.test(values.email);
-
-      if (!isValid) {
-        Alert.alert("Alert!", "Invalid Email Address");
-
-        return;
-      }
+    if (!emailRegex.test(values.email)) {
+      setMessage("Invalid Email Address");
+      setIsMessage(true);
+      return;
     }
     if (!values.password) {
-      Alert.alert("Alert!", "Password is required");
-      return;
-    }
-    if (values.password.length < 6) {
-      Alert.alert("Alert!", "Password must be at least 6 characters long.");
+      setMessage("Passowrd is required");
+      setIsMessage(true);
+      // Alert.alert("", "Passowrd is required");
+
       return;
     }
 
-    navigation.navigate("BottomTab");
+    setlaoding(true);
+    let data = {
+      email: values.email,
+      password: values.password,
+    };
+    var raw = JSON.stringify(data);
+
+    ApiServices.UserLogin(raw, async ({ isSuccess, response }: any) => {
+      if (isSuccess) {
+        let result = JSON.parse(response);
+        if (result?.success) {
+          setlaoding(false);
+          dispatch(setAuthToken(result?.data.token));
+          StorageServices.setItem(TOKEN, result?.data.token);
+          dispatch(setAuthData(result?.data?.user));
+          StorageServices.setItem(AUTHDATA, result?.data?.user);
+          navigation.dispatch(
+            CommonActions.reset({
+              index: 0,
+              routes: [{ name: "BottomTab" }],
+            })
+          );
+
+          // navigation.navigate("BottomTab");
+        } else {
+          setlaoding(false);
+          setMessage(result?.error);
+          setIsMessage(true);
+        }
+      } else {
+        setlaoding(false);
+        setMessage("Something went wrong");
+        console.log("response",response)
+        setIsMessage(true);
+      }
+    });
   };
+  // const onAppleLogin = async () => {
+  //   const appleAuthRequestResponse = await appleAuth.performRequest({
+  //     requestedOperation: appleAuth.Operation.LOGIN,
+  //     requestedScopes: [appleAuth.Scope.EMAIL, appleAuth.Scope.FULL_NAME],
+  //   });
+
+  //   const credentialState = await appleAuth.getCredentialStateForUser(
+  //     appleAuthRequestResponse.user
+  //   );
+
+  //   if (credentialState === appleAuth.State.AUTHORIZED) {
+  //     const { email, fullName, user } = appleAuthRequestResponse;
+  //     const { identityToken, nonce } = appleAuthRequestResponse;
+  //     const appleCredential = auth.AppleAuthProvider.credential(
+  //       identityToken,
+  //       nonce
+  //     );
+  //     const firebaseUserCredential = await auth().signInWithCredential(
+  //       appleCredential
+  //     );
+  //   }
+  // };
   return (
-    <ScreenLayout
-      backgroundSource={images.background_layout}
-      style={{ padding: sizeHelper.calHp(30) }}
-    >
-      <KeyboardAwareScrollView
-        showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ justifyContent: "space-between" }}
-      >
-        <View
+    <>
+      <ScreenLayout>
+        <Pressable
+          onPress={() => Keyboard.dismiss()}
           style={{
-            paddingTop: sizeHelper.calHp(60),
-            gap: sizeHelper.calHp(15),
+            paddingHorizontal: scale(20),
+            gap: verticalScale(20),
             flex: 1,
+            backgroundColor: colors.dull_white,
           }}
         >
-          <Image
-            style={styles.logoContainer}
-            resizeMode="contain"
-            source={images.logo}
-          />
-          <CustomText
-            text={"Log In"}
-            size={35}
-            style={{ textAlign: "center" }}
-            fontWeight="600"
-            fontFam={fonts.Outfit_Medium}
-          />
-          <CustomText
-            text={"Log in to your account, start from where you left"}
-            style={{ textAlign: "center" }}
-            color={theme.colors.dark_gray}
-            size={20}
-          />
-          <View
-            style={{
-              ...appStyles.row,
-              gap: sizeHelper.calWp(20),
-              paddingVertical: sizeHelper.calHp(15),
-            }}
-          >
-            <SocialButton icon={images.google} title={"Google"} />
-            <SocialButton icon={images.facebook} title={"Facebook"} />
-          </View>
-          <View style={{ ...appStyles.row, gap: sizeHelper.calWp(10) }}>
-            <View style={styles.divider} />
-            <CustomText text={"Or"} color={theme.colors.dark_gray} size={20} />
-            <View style={styles.divider} />
-          </View>
-          <View style={{ gap: sizeHelper.calHp(25), width: "100%" }}>
-            <CustomInput
-              label="Email"
-              value={values.email}
-              onChangeText={(txt: string) => {
-                setValues({ ...values, email: txt });
-              }}
-            />
-            <CustomInput
-              label="Password"
-              value={values.password}
-              onChangeText={(txt: string) => {
-                setValues({ ...values, password: txt });
-              }}
-            />
-          </View>
+          <TopHeader title="Login" />
 
-          <View style={appStyles.rowjustify}>
+          <CustomText
+            text={"Enter your email address and password to login."}
+            size={14}
+          />
+          <CustomInput
+            value={values.email}
+            error={errors.email_error}
+            onChangeText={(txt: string) => {
+              setValues({ ...values, email: txt });
+              let isValid = emailRegex.test(txt);
+              if (!txt) {
+                setErrors({ ...errors, email_error: "" });
+                return;
+              }
+              if (!isValid) {
+                setErrors({ ...errors, email_error: "Invalid Email Address" });
+              } else if (isValid) {
+                setErrors({ ...errors, email_error: "" });
+              }
+            }}
+            placeholder="Email Address"
+          />
+          <CustomInput
+            value={values.password}
+            error={errors.password_error}
+            secureTextEntry={showPassword}
+            onShowPassword={() => setShowPassword(!showPassword)}
+            onChangeText={(txt: any) => {
+              setValues({ ...values, password: txt });
+            }}
+            placeholder="Password"
+            rightSource={images.eye}
+          />
+          <TouchableOpacity
+            activeOpacity={0.5}
+            style={{ width: "50%" }}
+            onPress={() => navigation.navigate("ForgotPasswordScreen")}
+          >
+            <CustomText
+              fontWeight="600"
+              fontFam={font.WorkSans_SemiBold}
+              color={colors.primary}
+              text={"Forgot password?"}
+              size={14}
+            />
+          </TouchableOpacity>
+
+          <CustomButton
+            onPress={onLogin}
+            text="Login"
+            isLoading={laoding}
+            style={{ marginTop: verticalScale(20) }}
+          />
+
+          <TouchableOpacity
+            activeOpacity={0.5}
+            onPress={() => navigation.navigate("Login")}
+            style={{ ...appStyles.row, gap: scale(4), width: "65%" }}
+          >
+            <CustomText text={"Don’t have an account?"} size={14} />
             <TouchableOpacity
-              onPress={() => setIsRememberMe(!isRememberMe)}
-              style={{
-                ...appStyles.row,
-                gap: sizeHelper.calWp(15),
-                paddingVertical: sizeHelper.calHp(20),
-              }}
-            >
-              <TouchableOpacity onPress={() => setIsRememberMe(!isRememberMe)}>
-                <Image
-                  style={{
-                    width: sizeHelper.calWp(35),
-                    height: sizeHelper.calWp(35),
-                  }}
-                  source={
-                    isRememberMe ? images.flled_check : images.unfill_check
-                  }
-                  resizeMode="contain"
-                />
-              </TouchableOpacity>
-              {/* <View style={styles.checkBox}></View> */}
-              <CustomText text={"Remember me"} size={20} />
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => navigation.navigate("ForgotPassword")}
-              style={{ height: sizeHelper.calHp(40), justifyContent: "center" }}
+              activeOpacity={0.5}
+              onPress={() => navigation.navigate("SignupScreen")}
             >
               <CustomText
-                color={theme.colors.red}
-                text={"Forget password?"}
-                size={20}
+                color={colors.primary}
+                textDecorationLine="underline"
+                text={"Sign Up"}
+                size={14}
               />
             </TouchableOpacity>
-          </View>
+          </TouchableOpacity>
 
-          <CustomButton onPress={() => onLogin()} text="log in" />
-        </View>
+          {/* <View style={styles.socialBtnContainer}>
+            <View style={{ ...appStyles.row, gap: scale(4) }}>
+              <CustomText text={"Don’t have an account?"} size={14} />
+              <TouchableOpacity
+                activeOpacity={0.5}
+                onPress={() => navigation.navigate("SignupScreen")}
+              >
+                <CustomText
+                  color={colors.primary}
+                  textDecorationLine="underline"
+                  text={"Sign Up"}
+                  size={14}
+                />
+              </TouchableOpacity>
+            </View>
+            <View
+              style={{
+                ...appStyles.row,
+                ...styles.orContainer,
+              }}
+            >
+              <View style={styles.line} />
+              <CustomText text={"OR"} color={colors.grey} size={12} />
+              <View style={styles.line} />
+            </View>
+            <View
+              style={{
+                gap: verticalScale(17),
+              }}
+            >
+              <SocialButton
+                onPress={_onGoogleLogin}
+                icon={images.google}
+                text="Continue with Google"
+              />
+              <SocialButton
+                onPress={() => {
+                  dispatch(setUserLogin(true));
+                  navigation.navigate("BottomTab");
+                }}
+                icon={images.facebook}
+                text="Continue with facebook"
+              />
+              {Platform.OS == "ios" && (
+                <SocialButton
+                  onPress={onAppleLogin}
+                  icon={images.apple}
+                  text="Continue with Apple ID"
+                />
+              )}
+            </View>
+          </View> */}
+        </Pressable>
+      </ScreenLayout>
 
-        <TouchableOpacity
-          onPress={() => navigation.navigate("SignupScreen")}
-          style={{
-            ...appStyles.row,
-            gap: sizeHelper.calWp(5),
-            alignSelf: "center",
-            height: sizeHelper.calHp(40),
-            marginTop:Platform.OS=="ios"?"60%":  "70%",
-            // marginTopsizeHelper.calHp(Platform.OS=="ios"?35:  75)
-
-            
-          }}
-        >
-          <CustomText text={"Don’t have an account?"} size={22} />
-          <CustomText text={"Sign Up"} color={theme.colors.primary} size={22} />
-        </TouchableOpacity>
-      </KeyboardAwareScrollView>
-    </ScreenLayout>
+      {laoding && <AbsoluateView />}
+      <CustomToast
+        isVisable={isMessage}
+        setIsVisable={setIsMessage}
+        message={message}
+        color={colors.white}
+      />
+    </>
   );
 };
 
 export default LoginScreen;
 
 const styles = StyleSheet.create({
-  divider: {
+  line: { flex: 1, height: 1, backgroundColor: colors.dull_half_white },
+  socialBtnContainer: {
+    gap: verticalScale(17),
     flex: 1,
-    height: sizeHelper.calHp(0.5),
-    backgroundColor: theme.colors.divider,
+    justifyContent: "space-between",
+    paddingBottom: verticalScale(30),
   },
-  checkBox: {
-    width: sizeHelper.calWp(35),
-    height: sizeHelper.calWp(35),
-    alignItems: "center",
-    justifyContent: "center",
-    borderWidth: 1,
-    borderColor: "#B1B1B1",
-    borderRadius: sizeHelper.calWp(35),
-  },
-  logoContainer: {
-    width: sizeHelper.calWp(120),
-    height: sizeHelper.calHp(100),
-    borderRadius: sizeHelper.calWp(15),
+  orContainer: {
+    gap: scale(20),
     alignSelf: "center",
   },
 });

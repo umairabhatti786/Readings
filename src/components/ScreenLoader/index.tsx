@@ -1,9 +1,8 @@
 import React from "react";
-import { ActivityIndicator, Image, View } from "react-native";
-import { theme } from "../../utils/Themes";
-import sizeHelper from "../../utils/Helpers";
-import { images } from "../../assets/pngs";
-import CustomText from "../Text";
+import { ActivityIndicator, View } from "react-native";
+import { colors } from "../../utils/colors";
+import LottieView from "lottie-react-native";
+import { scale, verticalScale } from "react-native-size-matters";
 
 const ScreenLoader = () => {
   return (
@@ -11,20 +10,21 @@ const ScreenLoader = () => {
       style={{
         width: "100%",
         height: "100%",
-        zIndex: 1,
+        zIndex: 999999,
         position: "absolute",
-        backgroundColor: theme.colors.background,
+        backgroundColor: 'rgba(0,0,0,.3)',
         justifyContent: "center",
         alignItems: "center",
-        gap: sizeHelper.calHp(20),
       }}
     >
-      <Image
-        style={{ width: sizeHelper.calWp(80), height: sizeHelper.calWp(80) }}
-        source={images.loader}
-      />
-
-      <CustomText text={"Saving changes"} size={20} />
+            <LottieView
+          style={{ width: scale(70), height: verticalScale(40) }}
+          source={require("../../assets/json/laoding.json")}
+          renderMode="HARDWARE"
+          speed={1.2}
+          autoPlay
+        />
+      {/* <ActivityIndicator size="large" color={colors.primary} /> */}
     </View>
   );
 };

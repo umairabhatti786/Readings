@@ -1,44 +1,24 @@
 import React from 'react';
-import {
-  ImageBackground,
-  StyleSheet,
-  ViewStyle,
-  ImageSourcePropType,
-  SafeAreaView,
-} from 'react-native';
-import { images } from '../../assets/pngs';
-
-interface BackgroundContainerProps {
-  children: React.ReactNode;
-  style?: ViewStyle;
-  backgroundSource?:ImageSourcePropType
-}
-
-const ScreenLayout: React.FC<BackgroundContainerProps> = ({
-  children,
-  style,
-  backgroundSource
-}) => {
+import {View, Text, Image, Platform} from 'react-native';
+import {SafeAreaView} from 'react-native-safe-area-context';
+import {appStyles} from '../../utils/AppStyles';
+import {verticalScale} from 'react-native-size-matters';
+const ScreenLayout = ({children, edges, style}: any) => {
   return (
-    <ImageBackground
-      source={ backgroundSource as ImageSourcePropType  ||images.onbaord_background  as ImageSourcePropType   }
-      style={[styles.container, style]}>
-        
-        <SafeAreaView
-        style={{flex:1}}
-        >
-        {children}
+    <SafeAreaView edges={['top', 'right', 'left']} style={appStyles.main}>
+      <View
+        style={[
+          {
+            ...appStyles.main,
+            paddingTop: verticalScale(Platform.OS == 'ios' ? 7 : 14),
+          },
 
-        </SafeAreaView>
-    
-    </ImageBackground>
+          style,
+        ]}>
+        {children}
+      </View>
+    </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default ScreenLayout;
